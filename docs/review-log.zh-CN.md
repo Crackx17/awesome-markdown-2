@@ -151,6 +151,7 @@
 | MinerU | 2026-09-12 | 专项来源核对 | 已核对官方资料与仓库活动，观察到默认分支于 2026-08-14 有提交。此为来源核验，不是功能或性能实测。 使用自定义许可证，未添加无条件的开源标签。 | [1](https://github.com/opendatalab/MinerU) [2](https://mineru.net/) [3](https://github.com/opendatalab/MinerU/blob/master/LICENSE.md) |
 | Marker | 2026-09-12 | 专项来源核对 | 已核对官方资料与仓库活动，观察到默认分支于 2026-09-09 有提交。此为来源核验，不是功能或性能实测。 开源标签对应代码，不概括模型权重条款。 | [1](https://github.com/datalab-to/marker) [2](https://github.com/datalab-to/marker/blob/master/LICENSE) [3](https://github.com/datalab-to/marker/blob/master/MODEL_LICENSE) |
 | Obsidian Web Clipper | 2026-09-12 | 专项来源核对 | 已核对官方资料与仓库活动，观察到默认分支于 2026-09-04 有提交。此为来源核验，不是功能或性能实测。 | [1](https://github.com/obsidianmd/obsidian-clipper) [2](https://obsidian.md/clipper) |
+| ReadGZH | 2026-09-15 | 专项来源核对 | 已核对固定版本 README 与仓库 AGPL-3.0 许可元数据，未进行应用实测。用途为导入已有公开文章，不是 Markdown 排版发布；托管积分规则与代码许可分开，受限或删除文章及图片完整归档不作保证。 | [1](https://github.com/sweesama/readgzh/blob/4b253e21c5710f87563e22ba785e666ddb964b31/README.md) [2](https://github.com/sweesama/readgzh/blob/4b253e21c5710f87563e22ba785e666ddb964b31/LICENSE) [3](https://readgzh.site/docs) |
 | MD2Card | 2026-09-08 | 基础来源检查 | 已检查官方页面或仓库元数据，未进行应用功能实测。 | [1](https://md2card.com/zh) |
 | Markdown To Image | 2026-09-08 | 专项来源核对 | 已就所述能力或修正核对列出的来源，未进行应用功能实测。 | [1](https://github.com/gcui-art/markdown-to-image) |
 | Markdown To Image Serve | 2026-09-08 | 专项来源核对 | 已就所述能力或修正核对列出的来源，未进行应用功能实测。 | [1](https://github.com/wxingheng/markdown-to-image-serve) |
