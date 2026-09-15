@@ -5039,6 +5039,48 @@
       }
     },
     {
+      "id": "readgzh",
+      "name": {
+        "en": "ReadGZH",
+        "zh": "ReadGZH"
+      },
+      "url": "https://github.com/sweesama/readgzh",
+      "category": "to-markdown",
+      "parent": null,
+      "description": {
+        "en": "Converts existing public WeChat Official Account article URLs into text or Markdown through a hosted website, REST API or remote MCP. Service credits apply; cache search is not a full WeChat search, and images are not a complete offline archive.",
+        "zh": "通过托管网页、REST API 或远程 MCP，将已有公开微信公众号文章链接转为正文或 Markdown。在线服务按积分规则使用；缓存搜索不是全微信搜索，图片也不等于完整离线存档。"
+      },
+      "tags": [
+        "open-source",
+        "web",
+        "api"
+      ],
+      "links": [
+        {
+          "url": "https://readgzh.site/",
+          "label": {
+            "en": "Website",
+            "zh": "官网"
+          }
+        }
+      ],
+      "status": "active",
+      "review": {
+        "date": "2026-09-15",
+        "level": "source-review",
+        "sources": [
+          "https://github.com/sweesama/readgzh/blob/4b253e21c5710f87563e22ba785e666ddb964b31/README.md",
+          "https://github.com/sweesama/readgzh/blob/4b253e21c5710f87563e22ba785e666ddb964b31/LICENSE",
+          "https://readgzh.site/docs"
+        ],
+        "note": {
+          "en": "Reviewed the pinned README and repository AGPL-3.0 metadata; not an application test. Imports existing public article URLs, not Markdown-to-WeChat publishing. Hosted credits are separate from the code license; restricted/deleted articles and complete image archiving are not guaranteed.",
+          "zh": "已核对固定版本 README 与仓库 AGPL-3.0 许可元数据，未进行应用实测。用途为导入已有公开文章，不是 Markdown 排版发布；托管积分规则与代码许可分开，受限或删除文章及图片完整归档不作保证。"
+        }
+      }
+    },
+    {
       "id": "md2card",
       "name": {
         "en": "MD2Card",

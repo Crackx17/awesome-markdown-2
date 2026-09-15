@@ -633,6 +633,9 @@ Choose by input format and execution environment; check headings, tables, images
 - [Obsidian Web Clipper](https://github.com/obsidianmd/obsidian-clipper) - An official browser extension that saves web content and highlights as Markdown, with templates for repeatable clipping workflows.<br>
   <span>`Open source` · [Website](https://obsidian.md/clipper)</span>
 
+- [ReadGZH](https://github.com/sweesama/readgzh) - Converts existing public WeChat Official Account article URLs into text or Markdown through a hosted website, REST API or remote MCP. Service credits apply; cache search is not a full WeChat search, and images are not a complete offline archive.<br>
+  <span>`Open source` · `Web` · `API` · [Website](https://readgzh.site/)</span>
+
 <a id="转成图片"></a>
 
 ### Image Generation

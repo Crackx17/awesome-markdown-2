@@ -589,6 +589,9 @@ Markdown 原生文件、Markdown 输入快捷语法、Markdown 导入导出是�
 - [Obsidian Web Clipper](https://github.com/obsidianmd/obsidian-clipper) - 官方浏览器剪藏扩展，将网页内容与高亮保存为 Markdown，并通过模板统一资料采集格式。<br>
   <span>`开源` · [官网](https://obsidian.md/clipper)</span>
 
+- [ReadGZH](https://github.com/sweesama/readgzh) - 通过托管网页、REST API 或远程 MCP，将已有公开微信公众号文章链接转为正文或 Markdown。在线服务按积分规则使用；缓存搜索不是全微信搜索，图片也不等于完整离线存档。<br>
+  <span>`开源` · `Web` · `API` · [官网](https://readgzh.site/)</span>
+
 ### 转成图片
 
 单次制作关注排版预览，批量生成关注 API、部署方式与主题定制。
