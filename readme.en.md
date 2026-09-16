@@ -10,9 +10,13 @@ The English catalog is now the default [README](README.md). [简体中文](READM
 
 [Writing and Editing](README.md#writing-and-editing)
 
-## Dedicated Markdown Editors
+<a id="dedicated-markdown-editors"></a>
 
-[Dedicated Markdown Editors](README.md#dedicated-markdown-editors)
+<a id="专业-markdown-编辑器"></a>
+
+## Markdown Editors and Readers
+
+[Markdown Editors and Readers](README.md#markdown-editors-and-readers)
 
 ## Notes and Knowledge Management
 

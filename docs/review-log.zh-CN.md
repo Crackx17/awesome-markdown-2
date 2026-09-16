@@ -36,6 +36,7 @@
 | PanWriter | 2026-09-08 | 基础来源检查 | 已检查官方页面或仓库元数据，未进行应用功能实测。 | [1](https://github.com/mb21/panwriter) |
 | Quillpad | 2026-09-08 | 基础来源检查 | 已检查官方页面或仓库元数据，未进行应用功能实测。 | [1](https://github.com/quillpad/quillpad) |
 | Ghostwriter | 2026-09-08 | 专项来源核对 | 已就所述能力或修正核对列出的来源，未进行应用功能实测。 | [1](https://github.com/KDE/ghostwriter) |
+| Windows 记事本 | 2026-09-16 | 专项来源核对 | 核对官方格式功能公告中的标题、列表、链接、粗体、斜体与源码视图；公告记录 Insider 推送，不据此宣称所有 Windows 版本均支持，未进行应用实测。 | [1](https://blogs.windows.com/windows-insider/2025/05/30/text-formatting-in-notepad-begin-rolling-out-to-windows-insiders/) |
 | Persona | 2026-09-08 | 基础来源检查 | 已检查官方页面或仓库元数据，未进行应用功能实测。 | [1](https://github.com/jayamitkatariya/personacli) |
 | Obsidian | 2026-09-08 | 基础来源检查 | 已检查官方页面或仓库元数据，未进行应用功能实测。 | [1](https://obsidian.md/) |
 | Notion | 2026-09-08 | 专项来源核对 | 已就所述能力或修正核对列出的来源，未进行应用功能实测。 | [1](https://www.notion.com/zh-cn/help/notion-for-desktop) [2](https://www.notion.com/help/writing-and-editing-basics) |
@@ -60,6 +61,7 @@
 | Notable | 2026-09-08 | 专项来源核对 | 已就所述能力或修正核对列出的来源，未进行应用功能实测。 | [1](https://github.com/notable/notable) |
 | Khoj | 2026-09-08 | 基础来源检查 | 已检查官方页面或仓库元数据，未进行应用功能实测。 | [1](https://github.com/khoj-ai/khoj) |
 | AppFlowy | 2026-09-08 | 专项来源核对 | 已核对维护者关于导入导出的说明与当前仓库的平台列表；未实测整个工作空间往返迁移的保真度。 | [1](https://github.com/AppFlowy-IO/AppFlowy) [2](https://forum.appflowy.com/t/import-export-notes/938) |
+| Apple 备忘录 | 2026-09-16 | 专项来源核对 | 核对 Apple 导入导出文档；导入会转换为备忘录内容，不是直接编辑原始 .md 文件。本条范围为 Mac，未进行应用实测。 | [1](https://support.apple.com/en-gb/102223) [2](https://support.apple.com/en-mide/guide/notes/not201900c07/mac) |
 | novelWriter | 2026-09-08 | 基础来源检查 | 已检查官方页面或仓库元数据，未进行应用功能实测。 | [1](https://github.com/saga-soft/novelWriter) |
 | WonderPen（妙笔） | 2026-09-08 | 基础来源检查 | 已检查官方页面或仓库元数据，未进行应用功能实测。 | [1](https://www.tominlab.com/wonderpen) |
 | 飞书文档 | 2026-09-08 | 专项来源核对 | 已核对 2026-05-27 官方公告：仅文本导出 .md，所有内容导出包含图片和附件下载链接；未实测。 | [1](https://www.feishu.cn/content/article/7644456827538820052) |
@@ -72,6 +74,7 @@
 | HedgeDoc | 2026-09-08 | 基础来源检查 | 已检查官方页面或仓库元数据，未进行应用功能实测。 | [1](https://github.com/hedgedoc/hedgedoc) |
 | ONLYOFFICE DesktopEditors | 2026-09-08 | 专项来源核对 | 官方插件目录确认兼容 Desktop Editors 并支持文档转 Markdown；未实测插件流程。 | [1](https://github.com/ONLYOFFICE/DesktopEditors) [2](https://www.onlyoffice.com/marketplace/doc2md) [3](https://www.onlyoffice.com/blog/2024/04/how-to-edit-md-files-in-onlyoffice) |
 | Seafile | 2026-09-08 | 基础来源检查 | 已检查官方页面或仓库元数据，未进行应用功能实测。 | [1](https://github.com/haiwen/seafile) |
+| WPS 文字 / 金山文档 | 2026-09-16 | 专项来源核对 | 核对 WPS 官方社区公告：网页版向全部用户开放，客户端分批开放；不据此推断所有 WPS 应用和平台均支持 Markdown，未进行应用实测。 | [1](https://bbs.wps.cn/topic/86502) |
 | markmap | 2026-09-08 | 基础来源检查 | 已检查官方页面或仓库元数据，未进行应用功能实测。 | [1](https://github.com/markmap/markmap) |
 | XMind | 2026-09-08 | 基础来源检查 | 已检查官方页面或仓库元数据，未进行应用功能实测。 | [1](https://xmind.com/) |
 | Drawnix | 2026-09-08 | 基础来源检查 | 已检查官方页面或仓库元数据，未进行应用功能实测。 | [1](https://github.com/plait-board/drawnix) |

@@ -1,5 +1,10 @@
 # Changelog / 更新记录
 
+## 2026-09-16
+
+- Added Windows Notepad, Apple Notes and WPS Writer / KDocs with concise descriptions of their Markdown capabilities and availability. 新增 Windows 记事本、Apple 备忘录及 WPS 文字 / 金山文档，注明 Markdown 能力与可用范围。
+- Renamed the editor category to Markdown Editors and Readers, preserving old anchors; clarified inclusion criteria for general-purpose apps. 编辑器分类调整为「Markdown 编辑器与阅读器」，保留旧锚点，并明确通用应用收录标准。
+
 ## 2026-09-12
 
 - Added 16 resources covering MDX, developer components, document extraction, publishing, diagrams, formatting, link checks and learning. 新增 16 项资源，补齐开发、转换、出版与学习入口。

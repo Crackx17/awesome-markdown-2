@@ -39,7 +39,7 @@ const copy={
 };
 const outputs=new Map();
 // Preserve public links when category display names change.
-const legacyHeadings={'e-books':['E-books','电子书'],books:['Books','书籍']};
+const legacyHeadings={'dedicated-markdown-editors':['Dedicated Markdown Editors','专业 Markdown 编辑器'],'e-books':['E-books','电子书'],books:['Books','书籍']};
 const legacyAnchors=c=>(legacyHeadings[c.id]||[]).map(h=>`<a id="${slug(h)}"></a>`);
 function link(c,lang,file=''){return `[${c.name[lang]}](${file}#${slug(c.name[lang])})`;}
 function alignTables(text){

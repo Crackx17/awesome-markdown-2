@@ -20,7 +20,7 @@ Find editors, libraries, extensions, services, specifications and learning resou
 - [Choose with an example](#choose-with-an-example)
 - [Syntax Specifications and Extensions](#syntax-specifications-and-extensions)
 - [Writing and Editing](#writing-and-editing)
-  - [Dedicated Markdown Editors](#dedicated-markdown-editors)
+  - [Markdown Editors and Readers](#markdown-editors-and-readers)
   - [Notes and Knowledge Management](#notes-and-knowledge-management)
   - [Long-form Writing](#long-form-writing)
 - [Office and Collaboration](#office-and-collaboration)
@@ -54,7 +54,7 @@ Find editors, libraries, extensions, services, specifications and learning resou
 
 | Your task                                    | Browse                                                                                                                                                                                                      |
 | -------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Write and manage knowledge                   | [Dedicated Markdown Editors](#dedicated-markdown-editors) · [Notes and Knowledge Management](#notes-and-knowledge-management) · [Long-form Writing](#long-form-writing)                                     |
+| Write and manage knowledge                   | [Markdown Editors and Readers](#markdown-editors-and-readers) · [Notes and Knowledge Management](#notes-and-knowledge-management) · [Long-form Writing](#long-form-writing)                                 |
 | Collaborate, map ideas and manage tasks      | [Document Collaboration](#document-collaboration) · [Mind Mapping](#mind-mapping) · [Notes and Task Lists](#notes-and-task-lists)                                                                           |
 | Maintain READMEs and technical documentation | [Programming Tools](#programming-tools) · [Checking and Assistance](#checking-and-assistance)                                                                                                               |
 | Build a Markdown editor or renderer          | [Development Components](#development-components)                                                                                                                                                           |
@@ -118,9 +118,12 @@ Check the syntax specification used by the target tool. Extensions may render di
 
 ## Writing and Editing
 
+<a id="markdown-编辑器与阅读器"></a>
+
+<a id="dedicated-markdown-editors"></a>
 <a id="专业-markdown-编辑器"></a>
 
-### Dedicated Markdown Editors
+### Markdown Editors and Readers
 
 Choose source editing, WYSIWYG or a separate previewer first; then compare document organization and export.
 
@@ -188,6 +191,9 @@ Choose source editing, WYSIWYG or a separate previewer first; then compare docum
 
 - [Ghostwriter](https://github.com/KDE/ghostwriter) - A Markdown editor with focus and Hemingway modes and document export. Official downloads emphasize Windows and Linux; macOS requires a separate build setup.<br>
   <span>`Open source` · `Windows` · `Linux`</span>
+
+- [Windows Notepad](https://blogs.windows.com/windows-insider/2025/05/30/text-formatting-in-notepad-begin-rolling-out-to-windows-insiders/) - Supports basic Markdown formatting and switching between formatted and syntax views in newer Windows 11 versions, for quick notes and simple editing.<br>
+  <span>`Windows`</span>
 
 <a id="笔记与知识管理软件"></a>
 
@@ -264,6 +270,9 @@ Check storage, linking and migration. Markdown typing shortcuts do not mean note
 - [AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) - An open-source workspace for notes, projects and databases, with Markdown document import and export; databases use CSV export.<br>
   <span>`Open source` · `macOS` · `Windows` · `Linux` · `Android` · `iOS`</span>
 
+- [Apple Notes](https://support.apple.com/en-mide/guide/notes/not201900c07/mac) - Imports Markdown as rich-text notes and exports notes as Markdown on macOS Tahoe 26 and later, for moving content between Notes and other writing tools.<br>
+  <span>`macOS`</span>
+
 <a id="长篇写作"></a>
 
 ### Long-form Writing
@@ -315,6 +324,9 @@ Check collaboration and permissions, then distinguish Markdown input, import/exp
 
 - [Seafile](https://github.com/haiwen/seafile) - A file-sync and collaboration platform with Markdown-related document tools for maintaining shared team knowledge.<br>
   <span>`Open source`</span>
+
+- [WPS Writer / KDocs](https://kdocs.cn/) - Edits Markdown source with a split preview and saves to Word or PDF; the web version is available, while desktop access depends on the rollout.<br>
+  <span>`Web` · `Windows`</span>
 
 <a id="思维导图"></a>
 
