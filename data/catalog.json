@@ -32,8 +32,8 @@
       "level": 3,
       "parent": "writing-and-editing",
       "name": {
-        "en": "Dedicated Markdown Editors",
-        "zh": "专业 Markdown 编辑器"
+        "en": "Markdown Editors and Readers",
+        "zh": "Markdown 编辑器与阅读器"
       },
       "intro": {
         "en": "Choose source editing, WYSIWYG or a separate previewer first; then compare document organization and export.",
@@ -1336,6 +1336,36 @@
       }
     },
     {
+      "id": "windows-notepad",
+      "name": {
+        "en": "Windows Notepad",
+        "zh": "Windows 记事本"
+      },
+      "url": "https://blogs.windows.com/windows-insider/2025/05/30/text-formatting-in-notepad-begin-rolling-out-to-windows-insiders/",
+      "category": "dedicated-markdown-editors",
+      "parent": null,
+      "description": {
+        "en": "Supports basic Markdown formatting and switching between formatted and syntax views in newer Windows 11 versions, for quick notes and simple editing.",
+        "zh": "Windows 11 新版记事本支持基础 Markdown 格式及源码视图切换，适合轻量记录与简单编辑。"
+      },
+      "tags": [
+        "windows"
+      ],
+      "links": [],
+      "status": "active",
+      "review": {
+        "date": "2026-09-16",
+        "level": "source-review",
+        "sources": [
+          "https://blogs.windows.com/windows-insider/2025/05/30/text-formatting-in-notepad-begin-rolling-out-to-windows-insiders/"
+        ],
+        "note": {
+          "en": "Reviewed the official formatting announcement: headings, lists, links, bold and italic, plus syntax view; the announcement documents an Insider rollout, not availability in every Windows version. No application test.",
+          "zh": "核对官方格式功能公告中的标题、列表、链接、粗体、斜体与源码视图；公告记录 Insider 推送，不据此宣称所有 Windows 版本均支持，未进行应用实测。"
+        }
+      }
+    },
+    {
       "id": "persona",
       "name": {
         "en": "Persona",
@@ -2122,6 +2152,37 @@
       }
     },
     {
+      "id": "apple-notes",
+      "name": {
+        "en": "Apple Notes",
+        "zh": "Apple 备忘录"
+      },
+      "url": "https://support.apple.com/en-mide/guide/notes/not201900c07/mac",
+      "category": "notes-and-knowledge-management",
+      "parent": null,
+      "description": {
+        "en": "Imports Markdown as rich-text notes and exports notes as Markdown on macOS Tahoe 26 and later, for moving content between Notes and other writing tools.",
+        "zh": "macOS Tahoe 26 及后续版本支持将 Markdown 导入为富文本笔记，并将笔记导出为 Markdown，便于与其他写作工具迁移内容。"
+      },
+      "tags": [
+        "macos"
+      ],
+      "links": [],
+      "status": "active",
+      "review": {
+        "date": "2026-09-16",
+        "level": "source-review",
+        "sources": [
+          "https://support.apple.com/en-gb/102223",
+          "https://support.apple.com/en-mide/guide/notes/not201900c07/mac"
+        ],
+        "note": {
+          "en": "Reviewed Apple import and export documentation; import converts content into notes rather than editing the original .md file in place. This entry covers Mac; no application test.",
+          "zh": "核对 Apple 导入导出文档；导入会转换为备忘录内容，不是直接编辑原始 .md 文件。本条范围为 Mac，未进行应用实测。"
+        }
+      }
+    },
+    {
       "id": "novelwriter",
       "name": {
         "en": "novelWriter",
@@ -2491,6 +2552,37 @@
         "note": {
           "en": "Official page or repository metadata checked; not an application test.",
           "zh": "已检查官方页面或仓库元数据，未进行应用功能实测。"
+        }
+      }
+    },
+    {
+      "id": "wps-writer",
+      "name": {
+        "en": "WPS Writer / KDocs",
+        "zh": "WPS 文字 / 金山文档"
+      },
+      "url": "https://kdocs.cn/",
+      "category": "document-collaboration",
+      "parent": null,
+      "description": {
+        "en": "Edits Markdown source with a split preview and saves to Word or PDF; the web version is available, while desktop access depends on the rollout.",
+        "zh": "支持 Markdown 源码编辑、分屏预览及转存 Word/PDF，网页版已开放，客户端按版本逐步开放。"
+      },
+      "tags": [
+        "web",
+        "windows"
+      ],
+      "links": [],
+      "status": "active",
+      "review": {
+        "date": "2026-09-16",
+        "level": "source-review",
+        "sources": [
+          "https://bbs.wps.cn/topic/86502"
+        ],
+        "note": {
+          "en": "Reviewed the official WPS community announcement: web access for all users and phased desktop access; no claim of Markdown support across all WPS apps or platforms. No application test.",
+          "zh": "核对 WPS 官方社区公告：网页版向全部用户开放，客户端分批开放；不据此推断所有 WPS 应用和平台均支持 Markdown，未进行应用实测。"
         }
       }
     },

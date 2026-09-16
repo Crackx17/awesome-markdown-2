@@ -8,6 +8,8 @@ Recommend tools, correct descriptions or share a reproducible experience through
 
 We cover the Markdown ecosystem: writing, knowledge management, development, collaboration, conversion and publishing, including applications, libraries, extensions, services and specifications. A resource must have a clear Markdown use case, an official link and a concrete distinction from existing entries. Popularity is not an admission requirement.
 
+General-purpose apps are welcome when they provide a concrete Markdown workflow, such as editing, preview, import or export; merely opening .md files as plain text is not enough.
+
 Describe what the tool does and when it helps. Distinguish native Markdown files, typing shortcuts, import, export and rendering. State relevant limits; do not infer the whole product is open source because one repository is public. Avoid unsupported claims about pricing, platforms, quality or compatibility. Link to primary documentation for claims that need checking.
 
 ## Submit a change
