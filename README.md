@@ -206,7 +206,7 @@ Check storage, linking and migration. Markdown typing shortcuts do not mean note
   <span>`Open source` · `CLI`</span>
 
 - [Obsidian](https://obsidian.md/) - Organizes local Markdown notes with links and a graph for building relationships across a long-lived collection of knowledge.<br>
-  <span>`Free option` · `macOS` · `Windows` · `Linux` · `Android` · `iOS`</span>
+  <span>`Free option` · `macOS` · `Windows` · `Linux` · `Android` · `iOS` · [awesome-obsidian resource guide](https://github.com/mansucache/awesome-obsidian)</span>
 
 - [Notion](https://www.notion.com/) - Combines notes, tasks, databases and project management with Markdown typing shortcuts. Check file import and export separately from input syntax.<br>
   <span>`Free option` · `macOS` · `Windows` · `Android` · `iOS` · `Web`</span>

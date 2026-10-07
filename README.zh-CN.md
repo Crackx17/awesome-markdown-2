@@ -196,7 +196,7 @@ Markdown 原生文件、Markdown 输入快捷语法、Markdown 导入导出是�
   <span>`开源` · `CLI`</span>
 
 - [Obsidian](https://obsidian.md/) - 以本地 Markdown 笔记为基础，通过双向链接和知识图谱连接内容，适合长期积累资料并建立笔记之间的关系。<br>
-  <span>`提供免费方案` · `macOS` · `Windows` · `Linux` · `Android` · `iOS`</span>
+  <span>`提供免费方案` · `macOS` · `Windows` · `Linux` · `Android` · `iOS` · [awesome-obsidian 资源清单](https://github.com/mansucache/awesome-obsidian)</span>
 
 - [Notion](https://www.notion.com/) - 将笔记、任务、数据库与项目管理组织在同一工作空间，编辑时可使用 Markdown 语法；选型时应分别确认输入语法与文件导出能力。<br>
   <span>`提供免费方案` · `macOS` · `Windows` · `Android` · `iOS` · `Web`</span>
