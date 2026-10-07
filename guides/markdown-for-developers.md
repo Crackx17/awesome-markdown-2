@@ -6,6 +6,15 @@ For displaying Markdown, start with a renderer. For rewriting headings, extracti
 
 This guide is based on official documentation reviewed on 2026-09-12. The options below are starting points, not a performance ranking or a claim of hands-on testing of every component.
 
+## Read components by their role
+
+- **Editing interfaces**: Milkdown, Vditor, Cherry Markdown, md-editor-v3, OverType and Editor.md.
+- **Parsing and structural processing**: markdown-it, Marked and remark.
+- **Page and streaming rendering**: react-markdown, Streamdown and Markstream; Rich supports Python terminal output.
+- **Import and interactive extensions**: Turndown converts HTML to Markdown; Markdown UI provides interactive components.
+
+See the [component catalog](../README.md#development-components) for links and requirements. A library may serve more than one role; these groups describe its main use.
+
 ## Choose by task
 
 | Task | Starting points | Check before choosing |

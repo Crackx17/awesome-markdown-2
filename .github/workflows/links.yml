@@ -5,6 +5,7 @@ on:
   workflow_dispatch:
 permissions:
   contents: read
+  actions: read
 jobs:
   check:
     runs-on: ubuntu-latest
@@ -14,6 +15,22 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - name: Restore previous report
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          previous=$(gh run list --repo "$GITHUB_REPOSITORY" --workflow links.yml --limit 10 --json databaseId,status --jq '[.[] | select(.status == "completed")][0].databaseId // empty')
+          if [ -n "$previous" ]; then
+            if gh run download "$previous" --repo "$GITHUB_REPOSITORY" --name link-report --dir reports/previous; then
+              if [ -f reports/previous/link-check.json ]; then
+                echo "LINK_CHECK_PREVIOUS=reports/previous/link-check.json" >> "$GITHUB_ENV"
+              fi
+            else
+              echo "::warning::Previous report could not be downloaded; baseline comparison is unavailable."
+            fi
+          else
+            echo "::warning::No previous completed link-report run found."
+          fi
       - run: node scripts/check-links.mjs
         env:
           GITHUB_TOKEN: ${{ github.token }}

@@ -17,7 +17,6 @@
 | Typora Plugin | 2026-09-08 | 基础来源检查 | 已检查官方页面或仓库元数据，未进行应用功能实测。 | [1](https://github.com/obgnail/typora_plugin) |
 | VLOOK | 2026-09-08 | 基础来源检查 | 已检查官方页面或仓库元数据，未进行应用功能实测。 | [1](https://github.com/MadMaxChow/VLOOK) |
 | mdedit.ai | 2026-09-08 | 基础来源检查 | 已检查官方页面或仓库元数据，未进行应用功能实测。 | [1](https://mdedit.ai/) |
-| Bear | 2026-09-08 | 基础来源检查 | 已检查官方页面或仓库元数据，未进行应用功能实测。 | [1](https://bear.app/) |
 | Markdown Monster | 2026-09-08 | 专项来源核对 | 已就所述能力或修正核对列出的来源，未进行应用功能实测。 | [1](https://github.com/RickStrahl/MarkdownMonster) [2](https://markdownmonster.west-wind.com/purchase) |
 | Markor | 2026-09-08 | 基础来源检查 | 已检查官方页面或仓库元数据，未进行应用功能实测。 | [1](https://github.com/gsantner/markor) |
 | MarkEdit | 2026-09-08 | 基础来源检查 | 已检查官方页面或仓库元数据，未进行应用功能实测。 | [1](https://github.com/MarkEdit-app/MarkEdit) |
@@ -34,7 +33,6 @@
 | MarkFlowy | 2026-09-08 | 专项来源核对 | 已就所述能力或修正核对列出的来源，未进行应用功能实测。 | [1](https://github.com/drl990114/MarkFlowy) |
 | mkeditor | 2026-09-08 | 基础来源检查 | 已检查官方页面或仓库元数据，未进行应用功能实测。 | [1](https://github.com/versyxdigital/mkeditor) |
 | PanWriter | 2026-09-08 | 基础来源检查 | 已检查官方页面或仓库元数据，未进行应用功能实测。 | [1](https://github.com/mb21/panwriter) |
-| Quillpad | 2026-09-08 | 基础来源检查 | 已检查官方页面或仓库元数据，未进行应用功能实测。 | [1](https://github.com/quillpad/quillpad) |
 | Ghostwriter | 2026-09-08 | 专项来源核对 | 已就所述能力或修正核对列出的来源，未进行应用功能实测。 | [1](https://github.com/KDE/ghostwriter) |
 | Windows 记事本 | 2026-09-16 | 专项来源核对 | 核对官方格式功能公告中的标题、列表、链接、粗体、斜体与源码视图；公告记录 Insider 推送，不据此宣称所有 Windows 版本均支持，未进行应用实测。 | [1](https://blogs.windows.com/windows-insider/2025/05/30/text-formatting-in-notepad-begin-rolling-out-to-windows-insiders/) |
 | Markdific | 2026-10-07 | 专项来源核对 | 核对官方功能与定价页面中的编辑模式、免费阅读、付费编辑导出及 PDF 导出限 macOS/Windows 的说明，未进行应用实测。由产品开发者提交。 | [1](https://markdific.com/) [2](https://markdific.com/pricing/) |
@@ -63,6 +61,8 @@
 | Khoj | 2026-09-08 | 基础来源检查 | 已检查官方页面或仓库元数据，未进行应用功能实测。 | [1](https://github.com/khoj-ai/khoj) |
 | AppFlowy | 2026-09-08 | 专项来源核对 | 已核对维护者关于导入导出的说明与当前仓库的平台列表；未实测整个工作空间往返迁移的保真度。 | [1](https://github.com/AppFlowy-IO/AppFlowy) [2](https://forum.appflowy.com/t/import-export-notes/938) |
 | Apple 备忘录 | 2026-09-16 | 专项来源核对 | 核对 Apple 导入导出文档；导入会转换为备忘录内容，不是直接编辑原始 .md 文件。本条范围为 Mac，未进行应用实测。 | [1](https://support.apple.com/en-gb/102223) [2](https://support.apple.com/en-mide/guide/notes/not201900c07/mac) |
+| Bear | 2026-09-08 | 基础来源检查 | 已检查官方页面或仓库元数据，未进行应用功能实测。 | [1](https://bear.app/) |
+| Quillpad | 2026-09-08 | 基础来源检查 | 已检查官方页面或仓库元数据，未进行应用功能实测。 | [1](https://github.com/quillpad/quillpad) |
 | novelWriter | 2026-09-08 | 基础来源检查 | 已检查官方页面或仓库元数据，未进行应用功能实测。 | [1](https://github.com/saga-soft/novelWriter) |
 | WonderPen（妙笔） | 2026-09-08 | 基础来源检查 | 已检查官方页面或仓库元数据，未进行应用功能实测。 | [1](https://www.tominlab.com/wonderpen) |
 | 飞书文档 | 2026-09-08 | 专项来源核对 | 已核对 2026-05-27 官方公告：仅文本导出 .md，所有内容导出包含图片和附件下载链接；未实测。 | [1](https://www.feishu.cn/content/article/7644456827538820052) |
@@ -71,11 +71,11 @@
 | 腾讯文档 | 2026-09-08 | 专项来源核对 | 已核对官方企业版 SaaS 操作指南；未核验个人版 Markdown 文件导入导出及其他编辑器类型。 | [1](https://cloud.tencent.cn/document/product/1663/103166) |
 | Confluence | 2026-09-08 | 基础来源检查 | 已检查官方页面或仓库元数据，未进行应用功能实测。 | [1](https://www.atlassian.com/software/confluence) |
 | Boardmix（博思白板） | 2026-09-08 | 专项来源核对 | 官方说明确认可导入 Markdown 生成 AI 演示文稿；未确认 Markdown 导出，未进行应用实测。 | [1](https://boardmix.com/articles/ai-generated-slides/) |
-| Jupyter | 2026-09-08 | 基础来源检查 | 已检查官方页面或仓库元数据，未进行应用功能实测。 | [1](https://github.com/jupyter/jupyter) |
 | HedgeDoc | 2026-09-08 | 基础来源检查 | 已检查官方页面或仓库元数据，未进行应用功能实测。 | [1](https://github.com/hedgedoc/hedgedoc) |
 | ONLYOFFICE DesktopEditors | 2026-09-08 | 专项来源核对 | 官方插件目录确认兼容 Desktop Editors 并支持文档转 Markdown；未实测插件流程。 | [1](https://github.com/ONLYOFFICE/DesktopEditors) [2](https://www.onlyoffice.com/marketplace/doc2md) [3](https://www.onlyoffice.com/blog/2024/04/how-to-edit-md-files-in-onlyoffice) |
 | Seafile | 2026-09-08 | 基础来源检查 | 已检查官方页面或仓库元数据，未进行应用功能实测。 | [1](https://github.com/haiwen/seafile) |
 | WPS 文字 / 金山文档 | 2026-09-16 | 专项来源核对 | 核对 WPS 官方社区公告：网页版向全部用户开放，客户端分批开放；不据此推断所有 WPS 应用和平台均支持 Markdown，未进行应用实测。 | [1](https://bbs.wps.cn/topic/86502) |
+| Markdown Here | 2026-09-08 | 基础来源检查 | 已检查官方页面或仓库元数据，未进行应用功能实测。 | [1](https://github.com/adam-p/markdown-here) |
 | markmap | 2026-09-08 | 基础来源检查 | 已检查官方页面或仓库元数据，未进行应用功能实测。 | [1](https://github.com/markmap/markmap) |
 | XMind | 2026-09-08 | 基础来源检查 | 已检查官方页面或仓库元数据，未进行应用功能实测。 | [1](https://xmind.com/) |
 | Drawnix | 2026-09-08 | 基础来源检查 | 已检查官方页面或仓库元数据，未进行应用功能实测。 | [1](https://github.com/plait-board/drawnix) |
@@ -85,6 +85,7 @@
 | presenterm | 2026-09-08 | 基础来源检查 | 已检查官方页面或仓库元数据，未进行应用功能实测。 | [1](https://github.com/mfontanini/presenterm) |
 | mdp | 2026-09-08 | 基础来源检查 | 已检查官方页面或仓库元数据，未进行应用功能实测。 | [1](https://github.com/visit1985/mdp) |
 | deck | 2026-09-08 | 基础来源检查 | 已检查官方页面或仓库元数据，未进行应用功能实测。 | [1](https://github.com/k1LoW/deck) |
+| patat | 2026-09-08 | 基础来源检查 | 已检查官方页面或仓库元数据，未进行应用功能实测。 | [1](https://github.com/jaspervdj/patat) |
 | 锤子便签 | 2026-09-08 | 基础来源检查 | 已检查官方页面或仓库元数据，未进行应用功能实测。 | [1](https://cloud.smartisan.com/apps/note/md.html) |
 | flomo | 2026-09-08 | 专项来源核对 | 官方帮助明确不支持 Markdown 语法，退出当前推荐清单。 | [1](https://help.flomoapp.com/basic/quick-input.html) |
 | 滴答清单 | 2026-09-08 | 基础来源检查 | 已检查官方页面或仓库元数据，未进行应用功能实测。 | [1](https://dida365.com/webapp) |
@@ -120,6 +121,7 @@
 | Cursor | 2026-09-08 | 基础来源检查 | 已检查官方页面或仓库元数据，未进行应用功能实测。 | [1](https://cursor.com/) |
 | RStudio | 2026-09-08 | 基础来源检查 | 已检查官方页面或仓库元数据，未进行应用功能实测。 | [1](https://github.com/rstudio/rstudio) |
 | render-markdown.nvim | 2026-09-12 | 专项来源核对 | 已核对官方资料与仓库活动，观察到默认分支于 2026-08-11 有提交。此为来源核验，不是功能或性能实测。 | [1](https://github.com/MeanderingProgrammer/render-markdown.nvim) |
+| Jupyter | 2026-09-08 | 基础来源检查 | 已检查官方页面或仓库元数据，未进行应用功能实测。 | [1](https://github.com/jupyter/jupyter) |
 | massCode | 2026-09-08 | 专项来源核对 | 已就所述能力或修正核对列出的来源，未进行应用功能实测。 | [1](https://github.com/massCodeIO/massCode) |
 | Lepton | 2026-09-08 | 基础来源检查 | 已检查官方页面或仓库元数据，未进行应用功能实测。 | [1](https://github.com/hackjutsu/Lepton) |
 | Milkdown | 2026-09-08 | 基础来源检查 | 已检查官方页面或仓库元数据，未进行应用功能实测。 | [1](https://github.com/Milkdown/milkdown) |
@@ -134,13 +136,11 @@
 | Markdown UI | 2026-09-08 | 基础来源检查 | 已检查官方页面或仓库元数据，未进行应用功能实测。 | [1](https://github.com/BlueprintLabIO/markdown-ui) |
 | Markstream | 2026-09-08 | 专项来源核对 | 已就所述能力或修正核对列出的来源，未进行应用功能实测。 | [1](https://github.com/Simon-He95/markstream-vue) |
 | Editor.md | 2026-09-08 | 专项来源核对 | 已就所述能力或修正核对列出的来源，未进行应用功能实测。 | [1](https://github.com/pandao/editor.md) |
-| Markdown Here | 2026-09-08 | 基础来源检查 | 已检查官方页面或仓库元数据，未进行应用功能实测。 | [1](https://github.com/adam-p/markdown-here) |
 | remark | 2026-09-12 | 专项来源核对 | 已核对官方资料与仓库活动，观察到默认分支于 2026-09-01 有提交。此为来源核验，不是功能或性能实测。 | [1](https://github.com/remarkjs/remark) [2](https://remark.js.org/) |
 | react-markdown | 2026-09-12 | 专项来源核对 | 已核对官方资料与仓库活动，观察到默认分支于 2026-09-01 有提交。此为来源核验，不是功能或性能实测。 | [1](https://github.com/remarkjs/react-markdown) |
 | Streamdown | 2026-09-12 | 专项来源核对 | 已核对官方资料与仓库活动，观察到默认分支于 2026-09-10 有提交。此为来源核验，不是功能或性能实测。 | [1](https://github.com/vercel/streamdown) [2](https://streamdown.ai/) |
-| pandoc | 2026-09-08 | 基础来源检查 | 已检查官方页面或仓库元数据，未进行应用功能实测。 | [1](https://github.com/jgm/pandoc) |
+| pandoc | 2026-10-07 | 专项来源核对 | 核对官方输入格式列表与 PDF 输出引擎要求；PDF 不属于内置输入读取格式，未进行应用实测。 | [1](https://pandoc.org/MANUAL.html) |
 | Eisvogel | 2026-09-08 | 基础来源检查 | 已检查官方页面或仓库元数据，未进行应用功能实测。 | [1](https://github.com/Wandmalfarbe/pandoc-latex-template) |
-| patat | 2026-09-08 | 基础来源检查 | 已检查官方页面或仓库元数据，未进行应用功能实测。 | [1](https://github.com/jaspervdj/patat) |
 | doc2md | 2026-09-08 | 专项来源核对 | 已核对本地转换、离线资源缓存与 PDF 版式限制；未进行应用级隐私实测。 | [1](https://github.com/sakuraqqq/doc2md) |
 | feishu2md | 2026-09-08 | 专项来源核对 | 已就所述能力或修正核对列出的来源，未进行应用功能实测。 | [1](https://github.com/Wsine/feishu2md) |
 | noted.md | 2026-09-08 | 基础来源检查 | 已检查官方页面或仓库元数据，未进行应用功能实测。 | [1](https://github.com/tejas-raskar/noted.md) |

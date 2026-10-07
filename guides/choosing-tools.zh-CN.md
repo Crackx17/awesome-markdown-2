@@ -2,7 +2,20 @@
 
 [English](choosing-tools.md) | [简体中文](choosing-tools.zh-CN.md)
 
-这里用 16 个候选展示如何比较工具，不是覆盖所有工具的排名。选择依据来自项目资料；除独立的解析器示例外，没有宣称完成应用实测。更多候选见[完整清单](../README.zh-CN.md)。
+这里用几个常见任务展示如何比较工具，不是覆盖所有工具的排名。选择依据来自项目资料；除独立的解析器示例外，没有宣称完成应用实测。更多候选见[完整清单](../README.zh-CN.md)。
+
+## 先区分你要管理什么
+
+| 你的需求 | 可以先比较 | 区别与选择条件 |
+| --- | --- | --- |
+| 直接编辑已有 .md 文件 | [Typora](https://typora.io/)、[MarkEdit](https://github.com/MarkEdit-app/MarkEdit) | Typora 将编辑与预览合一，并提供多格式导出；MarkEdit 面向 macOS，适合需要脚本与编辑扩展的用户。先看设备、编辑习惯与交付格式。 |
+| 长期管理笔记库 | [Obsidian](https://obsidian.md/)、[Joplin](https://joplinapp.org/) | Obsidian 围绕本地 Markdown 文件与链接组织内容；Joplin 提供笔记管理、端到端加密与同步选项。比较保存方式、同步配置及附件与链接的迁移。 |
+| 免费阅读已有文档 | [Markdific](https://markdific.com/pricing/)、[Glow](https://github.com/charmbracelet/glow) | Markdific 提供桌面阅读界面，编辑与导出在试用后付费；Glow 在终端阅读。按使用环境选择，不把免费阅读理解为免费编辑。 |
+| 多人一起写文档 | [HedgeDoc](https://github.com/hedgedoc/hedgedoc)、[飞书文档](https://www.feishu.cn/product/docs) | HedgeDoc 适合能负责自托管的团队；飞书文档适合云端协作，但 Markdown 导出不包含评论。先确定部署责任及最终需要保留的内容。 |
+
+这些是基于现有条目资料的选择建议。更多编辑器与笔记应用见[完整清单](../README.zh-CN.md)，组件接入见[开发者指南](markdown-for-developers.zh-CN.md)。
+
+## 更多任务
 
 | 任务 | 候选与官方入口 | 用途 | 选择前检查 |
 | --- | --- | --- | --- |

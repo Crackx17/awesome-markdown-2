@@ -729,37 +729,6 @@
       }
     },
     {
-      "id": "bear",
-      "name": {
-        "en": "Bear",
-        "zh": "Bear"
-      },
-      "url": "https://bear.app/",
-      "category": "dedicated-markdown-editors",
-      "parent": null,
-      "description": {
-        "en": "An Apple-platform notes app that organizes Markdown notes with tags and syncs across devices for everyday notes and writing material.",
-        "zh": "面向 Apple 设备的笔记应用，通过标签组织 Markdown 笔记并在设备间同步，适合将日常记录与文章素材放在一起管理。"
-      },
-      "tags": [
-        "macos",
-        "ios"
-      ],
-      "links": [],
-      "status": "active",
-      "review": {
-        "date": "2026-09-08",
-        "level": "metadata",
-        "sources": [
-          "https://bear.app/"
-        ],
-        "note": {
-          "en": "Official page or repository metadata checked; not an application test.",
-          "zh": "已检查官方页面或仓库元数据，未进行应用功能实测。"
-        }
-      }
-    },
-    {
       "id": "markdown-monster",
       "name": {
         "en": "Markdown Monster",
@@ -1265,37 +1234,6 @@
         "level": "metadata",
         "sources": [
           "https://github.com/mb21/panwriter"
-        ],
-        "note": {
-          "en": "Official page or repository metadata checked; not an application test.",
-          "zh": "已检查官方页面或仓库元数据，未进行应用功能实测。"
-        }
-      }
-    },
-    {
-      "id": "quillpad",
-      "name": {
-        "en": "Quillpad",
-        "zh": "Quillpad"
-      },
-      "url": "https://github.com/quillpad/quillpad",
-      "category": "dedicated-markdown-editors",
-      "parent": null,
-      "description": {
-        "en": "An open-source Android notes app with Markdown, task lists and attachments for mobile notes and tasks.",
-        "zh": "面向 Android 的开源笔记应用，支持 Markdown、任务列表与附件，适合将手机端笔记和待办放在一起记录。"
-      },
-      "tags": [
-        "open-source",
-        "android"
-      ],
-      "links": [],
-      "status": "active",
-      "review": {
-        "date": "2026-09-08",
-        "level": "metadata",
-        "sources": [
-          "https://github.com/quillpad/quillpad"
         ],
         "note": {
           "en": "Official page or repository metadata checked; not an application test.",
@@ -2217,6 +2155,68 @@
       }
     },
     {
+      "id": "bear",
+      "name": {
+        "en": "Bear",
+        "zh": "Bear"
+      },
+      "url": "https://bear.app/",
+      "category": "notes-and-knowledge-management",
+      "parent": null,
+      "description": {
+        "en": "An Apple-platform notes app that organizes Markdown notes with tags and syncs across devices for everyday notes and writing material.",
+        "zh": "面向 Apple 设备的笔记应用，通过标签组织 Markdown 笔记并在设备间同步，适合将日常记录与文章素材放在一起管理。"
+      },
+      "tags": [
+        "macos",
+        "ios"
+      ],
+      "links": [],
+      "status": "active",
+      "review": {
+        "date": "2026-09-08",
+        "level": "metadata",
+        "sources": [
+          "https://bear.app/"
+        ],
+        "note": {
+          "en": "Official page or repository metadata checked; not an application test.",
+          "zh": "已检查官方页面或仓库元数据，未进行应用功能实测。"
+        }
+      }
+    },
+    {
+      "id": "quillpad",
+      "name": {
+        "en": "Quillpad",
+        "zh": "Quillpad"
+      },
+      "url": "https://github.com/quillpad/quillpad",
+      "category": "notes-and-knowledge-management",
+      "parent": null,
+      "description": {
+        "en": "An open-source Android notes app with Markdown, task lists and attachments for mobile notes and tasks.",
+        "zh": "面向 Android 的开源笔记应用，支持 Markdown、任务列表与附件，适合将手机端笔记和待办放在一起记录。"
+      },
+      "tags": [
+        "open-source",
+        "android"
+      ],
+      "links": [],
+      "status": "active",
+      "review": {
+        "date": "2026-09-08",
+        "level": "metadata",
+        "sources": [
+          "https://github.com/quillpad/quillpad"
+        ],
+        "note": {
+          "en": "Official page or repository metadata checked; not an application test.",
+          "zh": "已检查官方页面或仓库元数据，未进行应用功能实测。"
+        }
+      }
+    },
+    {
       "id": "novelwriter",
       "name": {
         "en": "novelWriter",
@@ -2463,37 +2463,6 @@
       }
     },
     {
-      "id": "jupyter",
-      "name": {
-        "en": "Jupyter",
-        "zh": "Jupyter"
-      },
-      "url": "https://github.com/jupyter/jupyter",
-      "category": "document-collaboration",
-      "parent": null,
-      "description": {
-        "en": "Combines executable code, Markdown cells, math and visualizations in interactive notebooks for analysis, research and teaching.",
-        "zh": "在交互式文档中组合代码、Markdown、LaTeX 公式和可视化结果，适合数据探索、研究记录与代码教学。"
-      },
-      "tags": [
-        "open-source",
-        "cross-platform"
-      ],
-      "links": [],
-      "status": "active",
-      "review": {
-        "date": "2026-09-08",
-        "level": "metadata",
-        "sources": [
-          "https://github.com/jupyter/jupyter"
-        ],
-        "note": {
-          "en": "Official page or repository metadata checked; not an application test.",
-          "zh": "已检查官方页面或仓库元数据，未进行应用功能实测。"
-        }
-      }
-    },
-    {
       "id": "hedgedoc",
       "name": {
         "en": "HedgeDoc",
@@ -2617,6 +2586,36 @@
         "note": {
           "en": "Reviewed the official WPS community announcement: web access for all users and phased desktop access; no claim of Markdown support across all WPS apps or platforms. No application test.",
           "zh": "核对 WPS 官方社区公告：网页版向全部用户开放，客户端分批开放；不据此推断所有 WPS 应用和平台均支持 Markdown，未进行应用实测。"
+        }
+      }
+    },
+    {
+      "id": "markdown-here",
+      "name": {
+        "en": "Markdown Here",
+        "zh": "Markdown Here"
+      },
+      "url": "https://github.com/adam-p/markdown-here",
+      "category": "document-collaboration",
+      "parent": null,
+      "description": {
+        "en": "A browser and Thunderbird extension that renders Markdown as rich text for email and web editors.",
+        "zh": "在 Chrome、Firefox 和 Thunderbird 等环境中，将输入的 Markdown 渲染为富文本，适合邮件与网页编辑场景。"
+      },
+      "tags": [
+        "open-source"
+      ],
+      "links": [],
+      "status": "active",
+      "review": {
+        "date": "2026-09-08",
+        "level": "metadata",
+        "sources": [
+          "https://github.com/adam-p/markdown-here"
+        ],
+        "note": {
+          "en": "Official page or repository metadata checked; not an application test.",
+          "zh": "已检查官方页面或仓库元数据，未进行应用功能实测。"
         }
       }
     },
@@ -2894,6 +2893,36 @@
         "level": "metadata",
         "sources": [
           "https://github.com/k1LoW/deck"
+        ],
+        "note": {
+          "en": "Official page or repository metadata checked; not an application test.",
+          "zh": "已检查官方页面或仓库元数据，未进行应用功能实测。"
+        }
+      }
+    },
+    {
+      "id": "patat",
+      "name": {
+        "en": "patat",
+        "zh": "patat"
+      },
+      "url": "https://github.com/jaspervdj/patat",
+      "category": "presentation",
+      "parent": null,
+      "description": {
+        "en": "A Pandoc-based terminal presentation tool with code highlighting and speaker notes.",
+        "zh": "基于 Pandoc 在终端展示演示文稿，支持代码高亮和演讲者笔记，适合已有 Pandoc 工作流的命令行演示。"
+      },
+      "tags": [
+        "open-source"
+      ],
+      "links": [],
+      "status": "active",
+      "review": {
+        "date": "2026-09-08",
+        "level": "metadata",
+        "sources": [
+          "https://github.com/jaspervdj/patat"
         ],
         "note": {
           "en": "Official page or repository metadata checked; not an application test.",
@@ -4018,6 +4047,37 @@
       }
     },
     {
+      "id": "jupyter",
+      "name": {
+        "en": "Jupyter",
+        "zh": "Jupyter"
+      },
+      "url": "https://github.com/jupyter/jupyter",
+      "category": "programming-tools",
+      "parent": null,
+      "description": {
+        "en": "Combines executable code, Markdown cells, math and visualizations in interactive notebooks for analysis, research and teaching.",
+        "zh": "在交互式文档中组合代码、Markdown、LaTeX 公式和可视化结果，适合数据探索、研究记录与代码教学。"
+      },
+      "tags": [
+        "open-source",
+        "cross-platform"
+      ],
+      "links": [],
+      "status": "active",
+      "review": {
+        "date": "2026-09-08",
+        "level": "metadata",
+        "sources": [
+          "https://github.com/jupyter/jupyter"
+        ],
+        "note": {
+          "en": "Official page or repository metadata checked; not an application test.",
+          "zh": "已检查官方页面或仓库元数据，未进行应用功能实测。"
+        }
+      }
+    },
+    {
       "id": "masscode",
       "name": {
         "en": "massCode",
@@ -4458,36 +4518,6 @@
       }
     },
     {
-      "id": "markdown-here",
-      "name": {
-        "en": "Markdown Here",
-        "zh": "Markdown Here"
-      },
-      "url": "https://github.com/adam-p/markdown-here",
-      "category": "development-components",
-      "parent": null,
-      "description": {
-        "en": "A browser and Thunderbird extension that renders Markdown as rich text for email and web editors.",
-        "zh": "在 Chrome、Firefox 和 Thunderbird 等环境中，将输入的 Markdown 渲染为富文本，适合邮件与网页编辑场景。"
-      },
-      "tags": [
-        "open-source"
-      ],
-      "links": [],
-      "status": "active",
-      "review": {
-        "date": "2026-09-08",
-        "level": "metadata",
-        "sources": [
-          "https://github.com/adam-p/markdown-here"
-        ],
-        "note": {
-          "en": "Official page or repository metadata checked; not an application test.",
-          "zh": "已检查官方页面或仓库元数据，未进行应用功能实测。"
-        }
-      }
-    },
-    {
       "id": "remark",
       "name": {
         "en": "remark",
@@ -4607,8 +4637,8 @@
       "category": "conversion-tools",
       "parent": null,
       "description": {
-        "en": "Converts between Markdown, HTML, Word and other document formats in CLI publishing workflows. Test complex layouts with representative files.",
-        "zh": "在 Markdown、HTML、PDF、Word 等文档格式之间转换，适合通过命令行组织多格式发布流程；复杂版式的转换效果需用实际文档检查。"
+        "en": "Converts Markdown, HTML, Word and other document formats in CLI publishing workflows; PDF output needs an additional rendering engine. Use a separate extractor for PDF input or OCR.",
+        "zh": "在 Markdown、HTML、Word 等文档格式之间转换，并借助额外排版引擎生成 PDF，适合多格式文档发布；PDF 提取与 OCR 应另选工具。"
       },
       "tags": [
         "open-source",
@@ -4617,14 +4647,14 @@
       "links": [],
       "status": "active",
       "review": {
-        "date": "2026-09-08",
-        "level": "metadata",
+        "date": "2026-10-07",
+        "level": "source-review",
         "sources": [
-          "https://github.com/jgm/pandoc"
+          "https://pandoc.org/MANUAL.html"
         ],
         "note": {
-          "en": "Official page or repository metadata checked; not an application test.",
-          "zh": "已检查官方页面或仓库元数据，未进行应用功能实测。"
+          "en": "Checked the official input-format list and PDF output engine requirements; PDF is not a built-in input reader. No application test.",
+          "zh": "核对官方输入格式列表与 PDF 输出引擎要求；PDF 不属于内置输入读取格式，未进行应用实测。"
         }
       }
     },
@@ -4651,36 +4681,6 @@
         "level": "metadata",
         "sources": [
           "https://github.com/Wandmalfarbe/pandoc-latex-template"
-        ],
-        "note": {
-          "en": "Official page or repository metadata checked; not an application test.",
-          "zh": "已检查官方页面或仓库元数据，未进行应用功能实测。"
-        }
-      }
-    },
-    {
-      "id": "patat",
-      "name": {
-        "en": "patat",
-        "zh": "patat"
-      },
-      "url": "https://github.com/jaspervdj/patat",
-      "category": "conversion-tools",
-      "parent": "pandoc",
-      "description": {
-        "en": "A Pandoc-based terminal presentation tool with code highlighting and speaker notes.",
-        "zh": "基于 Pandoc 在终端展示演示文稿，支持代码高亮和演讲者笔记，适合已有 Pandoc 工作流的命令行演示。"
-      },
-      "tags": [
-        "open-source"
-      ],
-      "links": [],
-      "status": "active",
-      "review": {
-        "date": "2026-09-08",
-        "level": "metadata",
-        "sources": [
-          "https://github.com/jaspervdj/patat"
         ],
         "note": {
           "en": "Official page or repository metadata checked; not an application test.",

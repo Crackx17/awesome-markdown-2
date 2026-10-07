@@ -1,9 +1,11 @@
 <!-- Generated from data/catalog.json by npm run build. -->
+<!-- lint disable awesome-toc -->
+<!-- Task navigation intentionally precedes the full contents; internal links and anchors are checked by scripts/check.mjs. -->
 <!-- lint disable double-link -->
 <!-- Repeated navigation links are intentional; catalog URL uniqueness is checked separately. -->
 # Awesome Markdown [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-![Awesome Markdown: connecting writing, notes, development and publishing](imgs/awesome-markdown-banner.png)
+![Awesome Markdown: connecting writing, notes, development and publishing](imgs/awesome-markdown-banner.jpg)
 
 **English** | [简体中文](README.zh-CN.md)
 
@@ -12,6 +14,43 @@ Markdown tools for writing, knowledge management, development, collaboration, co
 Find editors, libraries, extensions, services, specifications and learning resources for working with Markdown—from personal notes to application development.
 
 [![License: CC0-1.0](https://img.shields.io/badge/license-CC0--1.0-blue.svg)](LICENSE) [![Catalog checks](https://github.com/mansucache/awesome-markdown/actions/workflows/lint.yml/badge.svg)](https://github.com/mansucache/awesome-markdown/actions/workflows/lint.yml)
+
+## Find a tool for your task
+
+| Your task                                    | Browse                                                                                                                                                                                                      |
+| -------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Write and manage knowledge                   | [Markdown Editors and Readers](#markdown-editors-and-readers) · [Notes and Knowledge Management](#notes-and-knowledge-management) · [Long-form Writing](#long-form-writing)                                 |
+| Collaborate, map ideas and manage tasks      | [Document Collaboration](#document-collaboration) · [Mind Mapping](#mind-mapping) · [Notes and Task Lists](#notes-and-task-lists)                                                                           |
+| Maintain READMEs and technical documentation | [Programming Tools](#programming-tools) · [Checking and Assistance](#checking-and-assistance)                                                                                                               |
+| Build a Markdown editor or renderer          | [Development Components](#development-components)                                                                                                                                                           |
+| Handle AI output and extract source material | [AI-related Tools](#ai-related-tools) · [To Markdown](#to-markdown)                                                                                                                                         |
+| Convert files or create images               | [Conversion Tools](#conversion-tools) · [Image Generation](#image-generation)                                                                                                                               |
+| Publish a site, book or presentation         | [Static Site Generators](#static-site-generators) · [Books and Technical Publishing](#books-and-technical-publishing) · [Presentation](#presentation) · [WeChat Official Account](#wechat-official-account) |
+| Render diagrams and math                     | [Diagrams and Math](#diagrams-and-math)                                                                                                                                                                     |
+| Work in the terminal                         | [Command-line Tools](#command-line-tools)                                                                                                                                                                   |
+| Learn syntax and find templates              | [Syntax Specifications and Extensions](#syntax-specifications-and-extensions) · [Templates](#templates) · [Learning Resources](#learning-resources)                                                         |
+
+<a id="图标说明"></a>
+<a id="平台支持"></a>
+<a id="工具支持"></a>
+
+## How to choose
+
+**Writers and knowledge workers:** compare file storage, export, sync and the portability of links and attachments.
+
+**Developers:** distinguish standalone apps, editor components, parsers and APIs; check framework and runtime requirements.
+
+**Conversion and publishing:** test representative documents for tables, math, images and links before choosing a workflow.
+
+Markdown files, Markdown typing shortcuts and Markdown import/export are different capabilities. Support for one does not imply the others.
+
+Labels indicate platforms and integrations. “Free option” may mean a limited tier or personal use. “Cross-platform” does not mean feature parity. Open source applies to the linked project, not necessarily every related hosted service.
+
+Descriptions are based on source material, not a claim that every app has been tested. See the [review log](docs/review-log.md) and [historical or pending entries](docs/catalog-history.md).
+
+## Choose with an example
+
+Start with the [scenario selection guide](guides/choosing-tools.md), then try [one Markdown file in three parser configurations](guides/markdown-compatibility.md). The example includes reproducible input, output and limitations. For implementation choices, see the [developer guide](guides/markdown-for-developers.md); for file extraction, see the [document conversion guide](guides/document-to-markdown.md).
 
 ## Contents
 
@@ -51,43 +90,6 @@ Find editors, libraries, extensions, services, specifications and learning resou
 - [Updates](#updates)
 
 <!-- lint enable awesome-list-item -->
-
-## Find a tool for your task
-
-| Your task                                    | Browse                                                                                                                                                                                                      |
-| -------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Write and manage knowledge                   | [Markdown Editors and Readers](#markdown-editors-and-readers) · [Notes and Knowledge Management](#notes-and-knowledge-management) · [Long-form Writing](#long-form-writing)                                 |
-| Collaborate, map ideas and manage tasks      | [Document Collaboration](#document-collaboration) · [Mind Mapping](#mind-mapping) · [Notes and Task Lists](#notes-and-task-lists)                                                                           |
-| Maintain READMEs and technical documentation | [Programming Tools](#programming-tools) · [Checking and Assistance](#checking-and-assistance)                                                                                                               |
-| Build a Markdown editor or renderer          | [Development Components](#development-components)                                                                                                                                                           |
-| Handle AI output and extract source material | [AI-related Tools](#ai-related-tools) · [To Markdown](#to-markdown)                                                                                                                                         |
-| Convert files or create images               | [Conversion Tools](#conversion-tools) · [Image Generation](#image-generation)                                                                                                                               |
-| Publish a site, book or presentation         | [Static Site Generators](#static-site-generators) · [Books and Technical Publishing](#books-and-technical-publishing) · [Presentation](#presentation) · [WeChat Official Account](#wechat-official-account) |
-| Render diagrams and math                     | [Diagrams and Math](#diagrams-and-math)                                                                                                                                                                     |
-| Work in the terminal                         | [Command-line Tools](#command-line-tools)                                                                                                                                                                   |
-| Learn syntax and find templates              | [Syntax Specifications and Extensions](#syntax-specifications-and-extensions) · [Templates](#templates) · [Learning Resources](#learning-resources)                                                         |
-
-<a id="图标说明"></a>
-<a id="平台支持"></a>
-<a id="工具支持"></a>
-
-## How to choose
-
-**Writers and knowledge workers:** compare file storage, export, sync and the portability of links and attachments.
-
-**Developers:** distinguish standalone apps, editor components, parsers and APIs; check framework and runtime requirements.
-
-**Conversion and publishing:** test representative documents for tables, math, images and links before choosing a workflow.
-
-Markdown files, Markdown typing shortcuts and Markdown import/export are different capabilities. Support for one does not imply the others.
-
-Labels indicate platforms and integrations. “Free option” may mean a limited tier or personal use. “Cross-platform” does not mean feature parity. Open source applies to the linked project, not necessarily every related hosted service.
-
-Descriptions are based on source material, not a claim that every app has been tested. See the [review log](docs/review-log.md) and [historical or pending entries](docs/catalog-history.md).
-
-## Choose with an example
-
-Start with the [scenario selection guide](guides/choosing-tools.md), then try [one Markdown file in three parser configurations](guides/markdown-compatibility.md). The example includes reproducible input, output and limitations. For implementation choices, see the [developer guide](guides/markdown-for-developers.md); for file extraction, see the [document conversion guide](guides/document-to-markdown.md).
 
 <a id="语法规范与扩展"></a>
 
@@ -141,9 +143,6 @@ Choose source editing, WYSIWYG or a separate previewer first; then compare docum
 - [mdedit.ai](https://mdedit.ai/) - A technical writing workspace with live preview, Mermaid, AI assistance, collaboration and publishing. Core editing is free; collaboration and AI depend on the plan.<br>
   <span>`Free option` · `macOS` · `Windows` · `Linux` · `Web`</span>
 
-- [Bear](https://bear.app/) - An Apple-platform notes app that organizes Markdown notes with tags and syncs across devices for everyday notes and writing material.<br>
-  <span>`macOS` · `iOS`</span>
-
 - [Markdown Monster](https://github.com/RickStrahl/MarkdownMonster) - A Windows Markdown editor with syntax highlighting, live preview, Git integration and blog publishing. Continued use requires a paid license.<br>
   <span>`Windows`</span>
 
@@ -187,9 +186,6 @@ Choose source editing, WYSIWYG or a separate previewer first; then compare docum
 
 - [PanWriter](https://github.com/mb21/panwriter) - A desktop Markdown editor with Pandoc integration and paginated preview for checking page layout while writing.<br>
   <span>`Open source` · `macOS` · `Windows` · `Linux`</span>
-
-- [Quillpad](https://github.com/quillpad/quillpad) - An open-source Android notes app with Markdown, task lists and attachments for mobile notes and tasks.<br>
-  <span>`Open source` · `Android`</span>
 
 - [Ghostwriter](https://github.com/KDE/ghostwriter) - A Markdown editor with focus and Hemingway modes and document export. Official downloads emphasize Windows and Linux; macOS requires a separate build setup.<br>
   <span>`Open source` · `Windows` · `Linux`</span>
@@ -278,6 +274,12 @@ Check storage, linking and migration. Markdown typing shortcuts do not mean note
 - [Apple Notes](https://support.apple.com/en-mide/guide/notes/not201900c07/mac) - Imports Markdown as rich-text notes and exports notes as Markdown on macOS Tahoe 26 and later, for moving content between Notes and other writing tools.<br>
   <span>`macOS`</span>
 
+- [Bear](https://bear.app/) - An Apple-platform notes app that organizes Markdown notes with tags and syncs across devices for everyday notes and writing material.<br>
+  <span>`macOS` · `iOS`</span>
+
+- [Quillpad](https://github.com/quillpad/quillpad) - An open-source Android notes app with Markdown, task lists and attachments for mobile notes and tasks.<br>
+  <span>`Open source` · `Android`</span>
+
 <a id="长篇写作"></a>
 
 ### Long-form Writing
@@ -318,9 +320,6 @@ Check collaboration and permissions, then distinguish Markdown input, import/exp
 - [Boardmix](https://boardmix.com/) - A collaborative whiteboard that imports Markdown documents to generate AI slides.<br>
   <span>`Web`</span>
 
-- [Jupyter](https://github.com/jupyter/jupyter) - Combines executable code, Markdown cells, math and visualizations in interactive notebooks for analysis, research and teaching.<br>
-  <span>`Open source` · `Cross-platform`</span>
-
 - [HedgeDoc](https://github.com/hedgedoc/hedgedoc) - A self-hostable collaborative Markdown editor with real-time editing, diagrams and presentation features for shared documents.<br>
   <span>`Open source` · `Web`</span>
 
@@ -332,6 +331,9 @@ Check collaboration and permissions, then distinguish Markdown input, import/exp
 
 - [WPS Writer / KDocs](https://kdocs.cn/) - Edits Markdown source with a split preview and saves to Word or PDF; the web version is available, while desktop access depends on the rollout.<br>
   <span>`Web` · `Windows`</span>
+
+- [Markdown Here](https://github.com/adam-p/markdown-here) - A browser and Thunderbird extension that renders Markdown as rich text for email and web editors.<br>
+  <span>`Open source`</span>
 
 <a id="思维导图"></a>
 
@@ -371,6 +373,9 @@ Choose the final delivery format first: web, PDF, PPTX, Google Slides or termina
 
 - [deck](https://github.com/k1LoW/deck) - A CLI that turns Markdown into Google Slides for presentations that continue in Google's collaborative editor.<br>
   <span>`Open source` · `CLI`</span>
+
+- [patat](https://github.com/jaspervdj/patat) - A Pandoc-based terminal presentation tool with code highlighting and speaker notes.<br>
+  <span>`Open source`</span>
 
 <a id="便签与清单"></a>
 
@@ -521,6 +526,9 @@ Standalone development environments and extensions are listed separately. Start 
 - [render-markdown.nvim](https://github.com/MeanderingProgrammer/render-markdown.nvim) - Improves Markdown display inside Neovim with in-buffer rendering. Requires a compatible Neovim setup and the documented parser dependencies.<br>
   <span>`Open source`</span>
 
+- [Jupyter](https://github.com/jupyter/jupyter) - Combines executable code, Markdown cells, math and visualizations in interactive notebooks for analysis, research and teaching.<br>
+  <span>`Open source` · `Cross-platform`</span>
+
 <a id="代码片段管理"></a>
 
 ### Code Snippet Management
@@ -575,9 +583,6 @@ Identify the needed layer: editing interface, parsing and conversion, or renderi
 - [Editor.md](https://github.com/pandao/editor.md) - An embeddable browser Markdown editor based on CodeMirror, jQuery and Marked, with diagrams and math support.<br>
   <span>`Open source` · `JavaScript`</span>
 
-- [Markdown Here](https://github.com/adam-p/markdown-here) - A browser and Thunderbird extension that renders Markdown as rich text for email and web editors.<br>
-  <span>`Open source`</span>
-
 - [remark](https://github.com/remarkjs/remark) - Processes Markdown as a syntax tree with plugins for inspection and transformation. It is a content-processing pipeline, not an editing interface.<br>
   <span>`Open source` · `JavaScript` · [Website](https://remark.js.org/)</span>
 
@@ -593,13 +598,10 @@ Identify the needed layer: editing interface, parsing and conversion, or renderi
 
 Identify input and output first. Try representative files before converting a collection.
 
-- [pandoc](https://github.com/jgm/pandoc) - Converts between Markdown, HTML, Word and other document formats in CLI publishing workflows. Test complex layouts with representative files.<br>
+- [pandoc](https://github.com/jgm/pandoc) - Converts Markdown, HTML, Word and other document formats in CLI publishing workflows; PDF output needs an additional rendering engine. Use a separate extractor for PDF input or OCR.<br>
   <span>`Open source` · `CLI`</span>
 
   - [Eisvogel](https://github.com/Wandmalfarbe/pandoc-latex-template) - A Pandoc LaTeX template for turning Markdown into consistently typeset PDF or LaTeX reports and handouts.<br>
-    <span>`Open source`</span>
-
-  - [patat](https://github.com/jaspervdj/patat) - A Pandoc-based terminal presentation tool with code highlighting and speaker notes.<br>
     <span>`Open source`</span>
 
 <a id="转成-markdown"></a>

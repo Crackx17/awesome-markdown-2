@@ -6,6 +6,15 @@
 
 本指南依据官方资料整理，核对日期为 2026-09-12。下表是候选路线，不是性能排名，也不表示所有组件均已实测。
 
+## 按环节阅读开发组件
+
+- **编辑界面**：Milkdown、Vditor、Cherry Markdown、md-editor-v3、OverType、Editor.md。
+- **解析与结构处理**：markdown-it、Marked、remark。
+- **页面与流式渲染**：react-markdown、Streamdown、Markstream；Python 终端输出可看 Rich。
+- **导入与交互扩展**：Turndown 用于 HTML 转 Markdown，Markdown UI 用于交互组件。
+
+从[开发组件清单](../README.zh-CN.md#开发组件)查具体链接与条件。同一库可能参与多个环节，这里按主要用途帮助定位。
+
 ## 按任务选择
 
 | 你要做什么 | 从哪里开始 | 选型前确认 |

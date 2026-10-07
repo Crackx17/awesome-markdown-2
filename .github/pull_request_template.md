@@ -10,6 +10,14 @@ Official sources, relevant limits, or reproduction steps with tool versions:
 
 ## Checks / 检查
 
+Check only completed items; mark unrelated items N/A. 只勾选已完成项，不适用的标 N/A。
+
 - [ ] Updated catalog data and both translations / 已更新数据与双语内容
 - [ ] Ran `npm run build` and `npm run verify`
 - [ ] Distinguished source review from application testing / 已区分来源核对与实际测试
+
+- [ ] Considered whether CHANGELOG.md needs an update / 已判断是否需要更新 CHANGELOG.md
+
+## Help needed / 需要帮助
+
+State missing translations, evidence or checks, if any. 如有待补翻译、来源或检查，请说明。

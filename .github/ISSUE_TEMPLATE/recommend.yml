@@ -1,5 +1,5 @@
 name: "Recommend a tool / 推荐工具"
-description: "Suggest a Markdown resource with official evidence. 推荐有明确 Markdown 用途的资源。"
+description: "Suggest a resource with a clear Markdown use case. 推荐有明确 Markdown 用途的资源。"
 body:
   - type: textarea
     id: tool
@@ -10,15 +10,15 @@ body:
   - type: textarea
     id: task
     attributes:
-      label: "Task and difference / 解决什么任务，与已有条目有何区别"
+      label: "Use case and recommendation reason / 用途与推荐理由"
     validations:
       required: true
   - type: textarea
     id: sources
     attributes:
-      label: "Evidence and limits / 官方依据、支持范围与限制"
+      label: "Evidence and limits (optional) / 官方依据、支持范围与限制（选填）"
     validations:
-      required: true
+      required: false
   - type: textarea
     id: affiliation
     attributes:

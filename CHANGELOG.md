@@ -1,9 +1,20 @@
 # Changelog / 更新记录
 
+## 2026-10-07
+
+- Added Markdific with free/paid boundaries and its PDF export platform limit; introduced the illustrated bilingual homepage banner. 新增 Markdific，注明免费与付费边界及 PDF 导出平台限制；加入双语首页横幅。
+- Clarified Pandoc input/output limits, regrouped resources by their main task, and expanded bilingual scenario comparisons and component navigation. 修正 Pandoc 输入输出说明，按主要用途调整分类，补充双语场景比较与组件导航。
+- Moved task navigation before the full contents and added a lightweight banner plus asset notes. 任务导航前置，增加轻量横幅与素材说明。
+- Reduced reporting requirements for contributors and separated link-report failures from access restrictions, with comparison to the previous report. 降低线索提交门槛，区分失效与访问受阻，增加上次巡检对照。
+
 ## 2026-09-16
 
 - Added Windows Notepad, Apple Notes and WPS Writer / KDocs with concise descriptions of their Markdown capabilities and availability. 新增 Windows 记事本、Apple 备忘录及 WPS 文字 / 金山文档，注明 Markdown 能力与可用范围。
 - Renamed the editor category to Markdown Editors and Readers, preserving old anchors; clarified inclusion criteria for general-purpose apps. 编辑器分类调整为「Markdown 编辑器与阅读器」，保留旧锚点，并明确通用应用收录标准。
+
+## 2026-09-15
+
+- Added ReadGZH for importing public WeChat article URLs as text or Markdown, with service and scope limits. 新增 ReadGZH，用于将公开微信公众号文章链接转为正文或 Markdown，注明服务条件与范围。
 
 ## 2026-09-12
 
