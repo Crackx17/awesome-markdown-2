@@ -53,6 +53,7 @@ function readme(lang){
   const c=copy[lang];
   const lines=['<!-- Generated from data/catalog.json by npm run build. -->', '<!-- lint disable double-link -->', '<!-- Repeated navigation links are intentional; catalog URL uniqueness is checked separately. -->',
     '# Awesome Markdown [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)','',
+    `![${lang==='zh'?'Awesome Markdown：连接写作、笔记、开发与发布':'Awesome Markdown: connecting writing, notes, development and publishing'}](imgs/awesome-markdown-banner.png)`,'',
     '**English** | [简体中文](README.zh-CN.md)','',c.title,'',c.intro,'',
     `[![License: CC0-1.0](https://img.shields.io/badge/license-CC0--1.0-blue.svg)](LICENSE) [![Catalog checks](${repo}/actions/workflows/lint.yml/badge.svg)](${repo}/actions/workflows/lint.yml)`,'',
     `## ${c.quick}`,'',`| ${c.task} | ${c.browse} |`,'| --- | --- |',

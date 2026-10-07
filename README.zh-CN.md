@@ -4,6 +4,8 @@
 <!-- Repeated navigation links are intentional; catalog URL uniqueness is checked separately. -->
 # Awesome Markdown [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+![Awesome Markdown：连接写作、笔记、开发与发布](imgs/awesome-markdown-banner.png)
+
 [English](README.md) | **简体中文**
 
 Markdown 工具全景导航，覆盖写作、知识管理、开发、协作、格式转换与内容发布。
