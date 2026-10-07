@@ -3,6 +3,8 @@
 <!-- Repeated navigation links are intentional; catalog URL uniqueness is checked separately. -->
 # Awesome Markdown [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+![Awesome Markdown: connecting writing, notes, development and publishing](imgs/awesome-markdown-banner.png)
+
 **English** | [简体中文](README.zh-CN.md)
 
 Markdown tools for writing, knowledge management, development, collaboration, conversion and publishing.
