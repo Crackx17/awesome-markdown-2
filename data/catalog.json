@@ -1389,7 +1389,15 @@
         "android",
         "ios"
       ],
-      "links": [],
+      "links": [
+        {
+          "url": "https://github.com/mansucache/awesome-obsidian",
+          "label": {
+            "en": "awesome-obsidian resource guide",
+            "zh": "awesome-obsidian 资源清单"
+          }
+        }
+      ],
       "status": "active",
       "review": {
         "date": "2026-09-08",
