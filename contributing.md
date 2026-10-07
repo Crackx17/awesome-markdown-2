@@ -12,6 +12,12 @@ General-purpose apps are welcome when they provide a concrete Markdown workflow,
 
 Describe what the tool does and when it helps. Distinguish native Markdown files, typing shortcuts, import, export and rendering. State relevant limits; do not infer the whole product is open source because one repository is public. Avoid unsupported claims about pricing, platforms, quality or compatibility. Link to primary documentation for claims that need checking.
 
+## Suggest or report without a patch
+
+Search the catalog and existing issues first. For a recommendation, provide a name, official URL, use case, reason and affiliation; known limits are optional. For a correction, the entry and observed problem are enough. You do not need a fix or complete source review to report a broken link.
+
+Maintainers review the evidence, ask for missing facts, complete translations and generated files, then merge or briefly explain why a resource is deferred. A direct PR is welcome; an issue is not required first. Product bugs should go to the tool's own tracker; catalog errors belong here.
+
 ## Submit a change
 
 1. Use Node.js 22 or newer and run `npm ci --ignore-scripts`.

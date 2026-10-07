@@ -1,10 +1,12 @@
 <!-- lint disable no-file-name-mixed-case -->
 <!-- Generated from data/catalog.json by npm run build. -->
+<!-- lint disable awesome-toc -->
+<!-- Task navigation intentionally precedes the full contents; internal links and anchors are checked by scripts/check.mjs. -->
 <!-- lint disable double-link -->
 <!-- Repeated navigation links are intentional; catalog URL uniqueness is checked separately. -->
 # Awesome Markdown [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-![Awesome Markdown：连接写作、笔记、开发与发布](imgs/awesome-markdown-banner.png)
+![Awesome Markdown：连接写作、笔记、开发与发布](imgs/awesome-markdown-banner.jpg)
 
 [English](README.md) | **简体中文**
 
@@ -13,6 +15,39 @@ Markdown 工具全景导航，覆盖写作、知识管理、开发、协作、�
 无论你用 Markdown 写文章、整理知识、维护技术文档，还是开发编辑器、处理 AI 输出，都可以从这里找到相应的工具、组件、规范与学习资源。
 
 [![License: CC0-1.0](https://img.shields.io/badge/license-CC0--1.0-blue.svg)](LICENSE) [![Catalog checks](https://github.com/mansucache/awesome-markdown/actions/workflows/lint.yml/badge.svg)](https://github.com/mansucache/awesome-markdown/actions/workflows/lint.yml)
+
+## 按你的任务找工具
+
+| 你想做什么                 | 从这里开始                                                                           |
+| --------------------- | ------------------------------------------------------------------------------- |
+| 写文章、做笔记、管理知识          | [Markdown 编辑器与阅读器](#markdown-编辑器与阅读器) · [笔记与知识管理软件](#笔记与知识管理软件) · [长篇写作](#长篇写作) |
+| 多人协作、整理思路、管理任务        | [文档协同](#文档协同) · [思维导图](#思维导图) · [便签与清单](#便签与清单)                                 |
+| 写 README、维护技术文档       | [编程工具](#编程工具) · [检查与辅助](#检查与辅助)                                                 |
+| 在应用中解析、编辑或渲染 Markdown | [开发组件](#开发组件)                                                                   |
+| 处理 AI 输出、提取文档与网页内容    | [AI 相关工具](#ai-相关工具) · [转成 Markdown](#转成-markdown)                               |
+| 转换文档格式、生成内容图片         | [转换工具](#转换工具) · [转成图片](#转成图片)                                                   |
+| 制作网站、电子书、幻灯片或公众号文章    | [静态网站](#静态网站) · [书籍与技术出版](#书籍与技术出版) · [幻灯片](#幻灯片) · [公众号](#公众号)                 |
+| 渲染图表与公式               | [图表与公式](#图表与公式)                                                                 |
+| 在终端阅读、查询和处理文档         | [命令行工具](#命令行工具)                                                                 |
+| 查语法、找模板和学习资料          | [语法规范与扩展](#语法规范与扩展) · [模板](#模板) · [学习资源](#学习资源)                                 |
+
+## 如何选择
+
+**写作者与知识工作者**：关注文件保存、导出、同步方式，以及链接和附件能否随内容迁移。
+
+**开发者**：区分独立应用、编辑器组件、解析库和 API，再确认框架与运行环境。
+
+**转换与发布场景**：用自己的文档检查表格、公式、图片和链接的输出效果。
+
+Markdown 原生文件、Markdown 输入快捷语法、Markdown 导入导出是不同的能力。支持其中一种，不代表其余能力也具备。
+
+文字标签标注平台与工具环境。“提供免费方案”可能指基础功能或个人免费；“跨平台”不代表功能完全一致。开源标记对应链接中的项目，不代表相关云服务的全部功能都开源。
+
+条目介绍以来源资料为依据，不代表所有应用均已实测。可查阅[核验记录](docs/review-log.zh-CN.md)与[历史及待核实条目](docs/catalog-history.zh-CN.md)。
+
+## 通过实例做选择
+
+先看[场景选型指南](guides/choosing-tools.zh-CN.md)，再试试[同一份 Markdown 在三种解析配置中的差异](guides/markdown-compatibility.zh-CN.md)。示例提供输入、输出和可复现步骤。开发接入见[开发者选型](guides/markdown-for-developers.zh-CN.md)，文档提取见[文档转换比较](guides/document-to-markdown.zh-CN.md)。
 
 ## 完整分类
 
@@ -53,39 +88,6 @@ Markdown 工具全景导航，覆盖写作、知识管理、开发、协作、�
 - [更新](#更新)
 
 <!-- lint enable awesome-list-item -->
-
-## 按你的任务找工具
-
-| 你想做什么                 | 从这里开始                                                                           |
-| --------------------- | ------------------------------------------------------------------------------- |
-| 写文章、做笔记、管理知识          | [Markdown 编辑器与阅读器](#markdown-编辑器与阅读器) · [笔记与知识管理软件](#笔记与知识管理软件) · [长篇写作](#长篇写作) |
-| 多人协作、整理思路、管理任务        | [文档协同](#文档协同) · [思维导图](#思维导图) · [便签与清单](#便签与清单)                                 |
-| 写 README、维护技术文档       | [编程工具](#编程工具) · [检查与辅助](#检查与辅助)                                                 |
-| 在应用中解析、编辑或渲染 Markdown | [开发组件](#开发组件)                                                                   |
-| 处理 AI 输出、提取文档与网页内容    | [AI 相关工具](#ai-相关工具) · [转成 Markdown](#转成-markdown)                               |
-| 转换文档格式、生成内容图片         | [转换工具](#转换工具) · [转成图片](#转成图片)                                                   |
-| 制作网站、电子书、幻灯片或公众号文章    | [静态网站](#静态网站) · [书籍与技术出版](#书籍与技术出版) · [幻灯片](#幻灯片) · [公众号](#公众号)                 |
-| 渲染图表与公式               | [图表与公式](#图表与公式)                                                                 |
-| 在终端阅读、查询和处理文档         | [命令行工具](#命令行工具)                                                                 |
-| 查语法、找模板和学习资料          | [语法规范与扩展](#语法规范与扩展) · [模板](#模板) · [学习资源](#学习资源)                                 |
-
-## 如何选择
-
-**写作者与知识工作者**：关注文件保存、导出、同步方式，以及链接和附件能否随内容迁移。
-
-**开发者**：区分独立应用、编辑器组件、解析库和 API，再确认框架与运行环境。
-
-**转换与发布场景**：用自己的文档检查表格、公式、图片和链接的输出效果。
-
-Markdown 原生文件、Markdown 输入快捷语法、Markdown 导入导出是不同的能力。支持其中一种，不代表其余能力也具备。
-
-文字标签标注平台与工具环境。“提供免费方案”可能指基础功能或个人免费；“跨平台”不代表功能完全一致。开源标记对应链接中的项目，不代表相关云服务的全部功能都开源。
-
-条目介绍以来源资料为依据，不代表所有应用均已实测。可查阅[核验记录](docs/review-log.zh-CN.md)与[历史及待核实条目](docs/catalog-history.zh-CN.md)。
-
-## 通过实例做选择
-
-先看[场景选型指南](guides/choosing-tools.zh-CN.md)，再试试[同一份 Markdown 在三种解析配置中的差异](guides/markdown-compatibility.zh-CN.md)。示例提供输入、输出和可复现步骤。开发接入见[开发者选型](guides/markdown-for-developers.zh-CN.md)，文档提取见[文档转换比较](guides/document-to-markdown.zh-CN.md)。
 
 ## 语法规范与扩展
 
@@ -133,9 +135,6 @@ Markdown 原生文件、Markdown 输入快捷语法、Markdown 导入导出是�
 - [mdedit.ai](https://mdedit.ai/) - 面向技术文档写作的 Markdown 工作区，集成实时预览、Mermaid 图表、AI 辅助写作、协作与发布。基础编辑免费，协作与 AI 功能按方案提供。<br>
   <span>`提供免费方案` · `macOS` · `Windows` · `Linux` · `Web`</span>
 
-- [Bear](https://bear.app/) - 面向 Apple 设备的笔记应用，通过标签组织 Markdown 笔记并在设备间同步，适合将日常记录与文章素材放在一起管理。<br>
-  <span>`macOS` · `iOS`</span>
-
 - [Markdown Monster](https://github.com/RickStrahl/MarkdownMonster) - 面向 Windows 的 Markdown 编辑器，支持实时预览、Git 集成与博客发布；持续使用需要购买许可证。<br>
   <span>`Windows`</span>
 
@@ -179,9 +178,6 @@ Markdown 原生文件、Markdown 输入快捷语法、Markdown 导入导出是�
 
 - [PanWriter](https://github.com/mb21/panwriter) - 集成 Pandoc，并在预览中显示页面布局，适合需要同时关注正文内容与分页效果的文档写作。<br>
   <span>`开源` · `macOS` · `Windows` · `Linux`</span>
-
-- [Quillpad](https://github.com/quillpad/quillpad) - 面向 Android 的开源笔记应用，支持 Markdown、任务列表与附件，适合将手机端笔记和待办放在一起记录。<br>
-  <span>`开源` · `Android`</span>
 
 - [Ghostwriter](https://github.com/KDE/ghostwriter) - 提供专注模式、Hemingway 模式及文档导出的 Markdown 编辑器。官方下载以 Windows 和 Linux 为主，macOS 需另行配置构建。<br>
   <span>`开源` · `Windows` · `Linux`</span>
@@ -268,6 +264,12 @@ Markdown 原生文件、Markdown 输入快捷语法、Markdown 导入导出是�
 - [Apple 备忘录](https://support.apple.com/en-mide/guide/notes/not201900c07/mac) - macOS Tahoe 26 及后续版本支持将 Markdown 导入为富文本笔记，并将笔记导出为 Markdown，便于与其他写作工具迁移内容。<br>
   <span>`macOS`</span>
 
+- [Bear](https://bear.app/) - 面向 Apple 设备的笔记应用，通过标签组织 Markdown 笔记并在设备间同步，适合将日常记录与文章素材放在一起管理。<br>
+  <span>`macOS` · `iOS`</span>
+
+- [Quillpad](https://github.com/quillpad/quillpad) - 面向 Android 的开源笔记应用，支持 Markdown、任务列表与附件，适合将手机端笔记和待办放在一起记录。<br>
+  <span>`开源` · `Android`</span>
+
 ### 长篇写作
 
 重点比较章节组织、大纲、历史版本与最终导出格式。
@@ -302,9 +304,6 @@ Markdown 原生文件、Markdown 输入快捷语法、Markdown 导入导出是�
 - [Boardmix（博思白板）](https://boardmix.com/) - 协作白板，可导入 Markdown 文档并通过 AI 生成演示文稿。<br>
   <span>`Web`</span>
 
-- [Jupyter](https://github.com/jupyter/jupyter) - 在交互式文档中组合代码、Markdown、LaTeX 公式和可视化结果，适合数据探索、研究记录与代码教学。<br>
-  <span>`开源` · `跨平台`</span>
-
 - [HedgeDoc](https://github.com/hedgedoc/hedgedoc) - 可自托管的协作式 Markdown 编辑器，支持多人实时编辑、图表和幻灯片模式，适合团队共同维护 Markdown 文档。<br>
   <span>`开源` · `Web`</span>
 
@@ -316,6 +315,9 @@ Markdown 原生文件、Markdown 输入快捷语法、Markdown 导入导出是�
 
 - [WPS 文字 / 金山文档](https://kdocs.cn/) - 支持 Markdown 源码编辑、分屏预览及转存 Word/PDF，网页版已开放，客户端按版本逐步开放。<br>
   <span>`Web` · `Windows`</span>
+
+- [Markdown Here](https://github.com/adam-p/markdown-here) - 在 Chrome、Firefox 和 Thunderbird 等环境中，将输入的 Markdown 渲染为富文本，适合邮件与网页编辑场景。<br>
+  <span>`开源`</span>
 
 ### 思维导图
 
@@ -351,6 +353,9 @@ Markdown 原生文件、Markdown 输入快捷语法、Markdown 导入导出是�
 
 - [deck](https://github.com/k1LoW/deck) - 通过命令行将 Markdown 转为 Google Slides，适合需要在 Google Slides 中继续协作的演示流程。<br>
   <span>`开源` · `CLI`</span>
+
+- [patat](https://github.com/jaspervdj/patat) - 基于 Pandoc 在终端展示演示文稿，支持代码高亮和演讲者笔记，适合已有 Pandoc 工作流的命令行演示。<br>
+  <span>`开源`</span>
 
 ### 便签与清单
 
@@ -485,6 +490,9 @@ Markdown 原生文件、Markdown 输入快捷语法、Markdown 导入导出是�
 - [render-markdown.nvim](https://github.com/MeanderingProgrammer/render-markdown.nvim) - 在 Neovim 缓冲区中改善 Markdown 的显示效果；需要兼容的 Neovim 环境及文档列出的解析依赖。<br>
   <span>`开源`</span>
 
+- [Jupyter](https://github.com/jupyter/jupyter) - 在交互式文档中组合代码、Markdown、LaTeX 公式和可视化结果，适合数据探索、研究记录与代码教学。<br>
+  <span>`开源` · `跨平台`</span>
+
 ### 代码片段管理
 
 比较存储位置、分类方式以及代码与说明文字能否共同维护。
@@ -535,9 +543,6 @@ Markdown 原生文件、Markdown 输入快捷语法、Markdown 导入导出是�
 - [Editor.md](https://github.com/pandao/editor.md) - 基于 CodeMirror、jQuery 与 Marked 的网页 Markdown 编辑器组件，支持实时预览、流程图和数学公式，接入时需考虑现有依赖。<br>
   <span>`开源` · `JavaScript`</span>
 
-- [Markdown Here](https://github.com/adam-p/markdown-here) - 在 Chrome、Firefox 和 Thunderbird 等环境中，将输入的 Markdown 渲染为富文本，适合邮件与网页编辑场景。<br>
-  <span>`开源`</span>
-
 - [remark](https://github.com/remarkjs/remark) - 通过语法树与插件检查、转换 Markdown，适合构建内容处理流程；本身不提供编辑界面。<br>
   <span>`开源` · `JavaScript` · [官网](https://remark.js.org/)</span>
 
@@ -551,13 +556,10 @@ Markdown 原生文件、Markdown 输入快捷语法、Markdown 导入导出是�
 
 先明确输入与输出。格式转换不保证版式完整保留，批量处理前应试转具有代表性的文件。
 
-- [pandoc](https://github.com/jgm/pandoc) - 在 Markdown、HTML、PDF、Word 等文档格式之间转换，适合通过命令行组织多格式发布流程；复杂版式的转换效果需用实际文档检查。<br>
+- [pandoc](https://github.com/jgm/pandoc) - 在 Markdown、HTML、Word 等文档格式之间转换，并借助额外排版引擎生成 PDF，适合多格式文档发布；PDF 提取与 OCR 应另选工具。<br>
   <span>`开源` · `CLI`</span>
 
   - [Eisvogel](https://github.com/Wandmalfarbe/pandoc-latex-template) - 用于 Pandoc 的 LaTeX 模板，将 Markdown 输出为 PDF 或 LaTeX，适合需要统一文档版式的报告与手册。<br>
-    <span>`开源`</span>
-
-  - [patat](https://github.com/jaspervdj/patat) - 基于 Pandoc 在终端展示演示文稿，支持代码高亮和演讲者笔记，适合已有 Pandoc 工作流的命令行演示。<br>
     <span>`开源`</span>
 
 ### 转成 Markdown

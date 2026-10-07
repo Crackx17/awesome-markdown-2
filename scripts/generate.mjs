@@ -51,9 +51,9 @@ function alignTables(text){
 }
 function readme(lang){
   const c=copy[lang];
-  const lines=['<!-- Generated from data/catalog.json by npm run build. -->', '<!-- lint disable double-link -->', '<!-- Repeated navigation links are intentional; catalog URL uniqueness is checked separately. -->',
+  const lines=['<!-- Generated from data/catalog.json by npm run build. -->', '<!-- lint disable awesome-toc -->', '<!-- Task navigation intentionally precedes the full contents; internal links and anchors are checked by scripts/check.mjs. -->', '<!-- lint disable double-link -->', '<!-- Repeated navigation links are intentional; catalog URL uniqueness is checked separately. -->',
     '# Awesome Markdown [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)','',
-    `![${lang==='zh'?'Awesome Markdown：连接写作、笔记、开发与发布':'Awesome Markdown: connecting writing, notes, development and publishing'}](imgs/awesome-markdown-banner.png)`,'',
+    `![${lang==='zh'?'Awesome Markdown：连接写作、笔记、开发与发布':'Awesome Markdown: connecting writing, notes, development and publishing'}](imgs/awesome-markdown-banner.jpg)`,'',
     '**English** | [简体中文](README.zh-CN.md)','',c.title,'',c.intro,'',
     `[![License: CC0-1.0](https://img.shields.io/badge/license-CC0--1.0-blue.svg)](LICENSE) [![Catalog checks](${repo}/actions/workflows/lint.yml/badge.svg)](${repo}/actions/workflows/lint.yml)`,'',
     `## ${c.quick}`,'',`| ${c.task} | ${c.browse} |`,'| --- | --- |',
@@ -62,12 +62,11 @@ function readme(lang){
     `## ${c.learn}`,'',c.learnText,'',`## ${c.contents}`,'','<!-- lint disable awesome-list-item -->','',
     ...data.categories.map(x=>`${x.level===3?'  ':''}- ${link(x,lang)}`),'','<!-- lint enable awesome-list-item -->',''];
   const tocStart=lines.indexOf(`## ${c.contents}`);
-  const quickStart=lines.indexOf(`## ${c.quick}`);
   const toc=lines.splice(tocStart);
   const extra=[c.quick,c.guide,c.learn,c.participate,c.updates].map(h=>`- [${h}](#${slug(h)})`);
   toc.splice(4,0,...extra.slice(0,3));
   toc.splice(toc.indexOf('<!-- lint enable awesome-list-item -->')-1,0,...(lang==='en'?extra.slice(4):extra.slice(3)));
-  lines.splice(quickStart,0,...toc);
+  lines.push(...toc);
   if(lang==='zh')lines.unshift('<!-- lint disable no-file-name-mixed-case -->');
   if(lang==='zh')lines[lines.indexOf('**English** | [简体中文](README.zh-CN.md)')]='[English](README.md) | **简体中文**';
   for(const category of data.categories){

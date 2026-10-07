@@ -17,7 +17,6 @@ These records describe the scope of review. A reachable page is not an applicati
 | Typora Plugin | 2026-09-08 | Metadata check | Official page or repository metadata checked; not an application test. | [1](https://github.com/obgnail/typora_plugin) |
 | VLOOK | 2026-09-08 | Metadata check | Official page or repository metadata checked; not an application test. | [1](https://github.com/MadMaxChow/VLOOK) |
 | mdedit.ai | 2026-09-08 | Metadata check | Official page or repository metadata checked; not an application test. | [1](https://mdedit.ai/) |
-| Bear | 2026-09-08 | Metadata check | Official page or repository metadata checked; not an application test. | [1](https://bear.app/) |
 | Markdown Monster | 2026-09-08 | Focused source review | Reviewed the cited source for the stated capability or correction; application behavior was not tested. | [1](https://github.com/RickStrahl/MarkdownMonster) [2](https://markdownmonster.west-wind.com/purchase) |
 | Markor | 2026-09-08 | Metadata check | Official page or repository metadata checked; not an application test. | [1](https://github.com/gsantner/markor) |
 | MarkEdit | 2026-09-08 | Metadata check | Official page or repository metadata checked; not an application test. | [1](https://github.com/MarkEdit-app/MarkEdit) |
@@ -34,7 +33,6 @@ These records describe the scope of review. A reachable page is not an applicati
 | MarkFlowy | 2026-09-08 | Focused source review | Reviewed the cited source for the stated capability or correction; application behavior was not tested. | [1](https://github.com/drl990114/MarkFlowy) |
 | mkeditor | 2026-09-08 | Metadata check | Official page or repository metadata checked; not an application test. | [1](https://github.com/versyxdigital/mkeditor) |
 | PanWriter | 2026-09-08 | Metadata check | Official page or repository metadata checked; not an application test. | [1](https://github.com/mb21/panwriter) |
-| Quillpad | 2026-09-08 | Metadata check | Official page or repository metadata checked; not an application test. | [1](https://github.com/quillpad/quillpad) |
 | Ghostwriter | 2026-09-08 | Focused source review | Reviewed the cited source for the stated capability or correction; application behavior was not tested. | [1](https://github.com/KDE/ghostwriter) |
 | Windows Notepad | 2026-09-16 | Focused source review | Reviewed the official formatting announcement: headings, lists, links, bold and italic, plus syntax view; the announcement documents an Insider rollout, not availability in every Windows version. No application test. | [1](https://blogs.windows.com/windows-insider/2025/05/30/text-formatting-in-notepad-begin-rolling-out-to-windows-insiders/) |
 | Markdific | 2026-10-07 | Focused source review | Reviewed the official feature and pricing pages for editing modes, free reading, paid editing/export and the macOS/Windows PDF export limit; no application test. Submitted by the product developer. | [1](https://markdific.com/) [2](https://markdific.com/pricing/) |
@@ -63,6 +61,8 @@ These records describe the scope of review. A reachable page is not an applicati
 | Khoj | 2026-09-08 | Metadata check | Official page or repository metadata checked; not an application test. | [1](https://github.com/khoj-ai/khoj) |
 | AppFlowy | 2026-09-08 | Focused source review | Maintainer explanation of import/export and current repository platform list checked. Whole-workspace round-trip fidelity was not tested. | [1](https://github.com/AppFlowy-IO/AppFlowy) [2](https://forum.appflowy.com/t/import-export-notes/938) |
 | Apple Notes | 2026-09-16 | Focused source review | Reviewed Apple import and export documentation; import converts content into notes rather than editing the original .md file in place. This entry covers Mac; no application test. | [1](https://support.apple.com/en-gb/102223) [2](https://support.apple.com/en-mide/guide/notes/not201900c07/mac) |
+| Bear | 2026-09-08 | Metadata check | Official page or repository metadata checked; not an application test. | [1](https://bear.app/) |
+| Quillpad | 2026-09-08 | Metadata check | Official page or repository metadata checked; not an application test. | [1](https://github.com/quillpad/quillpad) |
 | novelWriter | 2026-09-08 | Metadata check | Official page or repository metadata checked; not an application test. | [1](https://github.com/saga-soft/novelWriter) |
 | WonderPen | 2026-09-08 | Metadata check | Official page or repository metadata checked; not an application test. | [1](https://www.tominlab.com/wonderpen) |
 | Feishu Docs | 2026-09-08 | Focused source review | Official 2026-05-27 announcement checked: text-only exports a .md file; all-content exports include image and attachment download links. Not tested. | [1](https://www.feishu.cn/content/article/7644456827538820052) |
@@ -71,11 +71,11 @@ These records describe the scope of review. A reachable page is not an applicati
 | Tencent Docs | 2026-09-08 | Focused source review | Official Enterprise SaaS guide checked. Consumer-edition Markdown file import/export and other editor types were not verified. | [1](https://cloud.tencent.cn/document/product/1663/103166) |
 | Confluence | 2026-09-08 | Metadata check | Official page or repository metadata checked; not an application test. | [1](https://www.atlassian.com/software/confluence) |
 | Boardmix | 2026-09-08 | Focused source review | Official instructions confirm Markdown import for AI slides; Markdown export was not established. No application test. | [1](https://boardmix.com/articles/ai-generated-slides/) |
-| Jupyter | 2026-09-08 | Metadata check | Official page or repository metadata checked; not an application test. | [1](https://github.com/jupyter/jupyter) |
 | HedgeDoc | 2026-09-08 | Metadata check | Official page or repository metadata checked; not an application test. | [1](https://github.com/hedgedoc/hedgedoc) |
 | ONLYOFFICE Desktop Editors | 2026-09-08 | Focused source review | Official plugin listing confirms Desktop Editors compatibility and document-to-Markdown conversion; plugin workflow was not tested. | [1](https://github.com/ONLYOFFICE/DesktopEditors) [2](https://www.onlyoffice.com/marketplace/doc2md) [3](https://www.onlyoffice.com/blog/2024/04/how-to-edit-md-files-in-onlyoffice) |
 | Seafile | 2026-09-08 | Metadata check | Official page or repository metadata checked; not an application test. | [1](https://github.com/haiwen/seafile) |
 | WPS Writer / KDocs | 2026-09-16 | Focused source review | Reviewed the official WPS community announcement: web access for all users and phased desktop access; no claim of Markdown support across all WPS apps or platforms. No application test. | [1](https://bbs.wps.cn/topic/86502) |
+| Markdown Here | 2026-09-08 | Metadata check | Official page or repository metadata checked; not an application test. | [1](https://github.com/adam-p/markdown-here) |
 | markmap | 2026-09-08 | Metadata check | Official page or repository metadata checked; not an application test. | [1](https://github.com/markmap/markmap) |
 | XMind | 2026-09-08 | Metadata check | Official page or repository metadata checked; not an application test. | [1](https://xmind.com/) |
 | Drawnix | 2026-09-08 | Metadata check | Official page or repository metadata checked; not an application test. | [1](https://github.com/plait-board/drawnix) |
@@ -85,6 +85,7 @@ These records describe the scope of review. A reachable page is not an applicati
 | presenterm | 2026-09-08 | Metadata check | Official page or repository metadata checked; not an application test. | [1](https://github.com/mfontanini/presenterm) |
 | mdp | 2026-09-08 | Metadata check | Official page or repository metadata checked; not an application test. | [1](https://github.com/visit1985/mdp) |
 | deck | 2026-09-08 | Metadata check | Official page or repository metadata checked; not an application test. | [1](https://github.com/k1LoW/deck) |
+| patat | 2026-09-08 | Metadata check | Official page or repository metadata checked; not an application test. | [1](https://github.com/jaspervdj/patat) |
 | Smartisan Notes | 2026-09-08 | Metadata check | Official page or repository metadata checked; not an application test. | [1](https://cloud.smartisan.com/apps/note/md.html) |
 | flomo | 2026-09-08 | Focused source review | Official help explicitly excludes Markdown syntax; removed from the active catalog. | [1](https://help.flomoapp.com/basic/quick-input.html) |
 | TickTick | 2026-09-08 | Metadata check | Official page or repository metadata checked; not an application test. | [1](https://dida365.com/webapp) |
@@ -120,6 +121,7 @@ These records describe the scope of review. A reachable page is not an applicati
 | Cursor | 2026-09-08 | Metadata check | Official page or repository metadata checked; not an application test. | [1](https://cursor.com/) |
 | RStudio | 2026-09-08 | Metadata check | Official page or repository metadata checked; not an application test. | [1](https://github.com/rstudio/rstudio) |
 | render-markdown.nvim | 2026-09-12 | Focused source review | Official documentation and repository activity reviewed; default-branch commit observed on 2026-08-11. This is source review, not a functional or performance test. | [1](https://github.com/MeanderingProgrammer/render-markdown.nvim) |
+| Jupyter | 2026-09-08 | Metadata check | Official page or repository metadata checked; not an application test. | [1](https://github.com/jupyter/jupyter) |
 | massCode | 2026-09-08 | Focused source review | Reviewed the cited source for the stated capability or correction; application behavior was not tested. | [1](https://github.com/massCodeIO/massCode) |
 | Lepton | 2026-09-08 | Metadata check | Official page or repository metadata checked; not an application test. | [1](https://github.com/hackjutsu/Lepton) |
 | Milkdown | 2026-09-08 | Metadata check | Official page or repository metadata checked; not an application test. | [1](https://github.com/Milkdown/milkdown) |
@@ -134,13 +136,11 @@ These records describe the scope of review. A reachable page is not an applicati
 | Markdown UI | 2026-09-08 | Metadata check | Official page or repository metadata checked; not an application test. | [1](https://github.com/BlueprintLabIO/markdown-ui) |
 | Markstream | 2026-09-08 | Focused source review | Reviewed the cited source for the stated capability or correction; application behavior was not tested. | [1](https://github.com/Simon-He95/markstream-vue) |
 | Editor.md | 2026-09-08 | Focused source review | Reviewed the cited source for the stated capability or correction; application behavior was not tested. | [1](https://github.com/pandao/editor.md) |
-| Markdown Here | 2026-09-08 | Metadata check | Official page or repository metadata checked; not an application test. | [1](https://github.com/adam-p/markdown-here) |
 | remark | 2026-09-12 | Focused source review | Official documentation and repository activity reviewed; default-branch commit observed on 2026-09-01. This is source review, not a functional or performance test. | [1](https://github.com/remarkjs/remark) [2](https://remark.js.org/) |
 | react-markdown | 2026-09-12 | Focused source review | Official documentation and repository activity reviewed; default-branch commit observed on 2026-09-01. This is source review, not a functional or performance test. | [1](https://github.com/remarkjs/react-markdown) |
 | Streamdown | 2026-09-12 | Focused source review | Official documentation and repository activity reviewed; default-branch commit observed on 2026-09-10. This is source review, not a functional or performance test. | [1](https://github.com/vercel/streamdown) [2](https://streamdown.ai/) |
-| pandoc | 2026-09-08 | Metadata check | Official page or repository metadata checked; not an application test. | [1](https://github.com/jgm/pandoc) |
+| pandoc | 2026-10-07 | Focused source review | Checked the official input-format list and PDF output engine requirements; PDF is not a built-in input reader. No application test. | [1](https://pandoc.org/MANUAL.html) |
 | Eisvogel | 2026-09-08 | Metadata check | Official page or repository metadata checked; not an application test. | [1](https://github.com/Wandmalfarbe/pandoc-latex-template) |
-| patat | 2026-09-08 | Metadata check | Official page or repository metadata checked; not an application test. | [1](https://github.com/jaspervdj/patat) |
 | doc2md | 2026-09-08 | Focused source review | Source review: local conversion, cached offline resources and PDF layout limitations. No app-level privacy test performed. | [1](https://github.com/sakuraqqq/doc2md) |
 | feishu2md | 2026-09-08 | Focused source review | Reviewed the cited source for the stated capability or correction; application behavior was not tested. | [1](https://github.com/Wsine/feishu2md) |
 | noted.md | 2026-09-08 | Metadata check | Official page or repository metadata checked; not an application test. | [1](https://github.com/tejas-raskar/noted.md) |

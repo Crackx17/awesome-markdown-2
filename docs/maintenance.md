@@ -22,11 +22,25 @@ Review dates record when the stated check took place, not an expiry guarantee. B
 
 ## Automation / 自动检查
 
-Pull requests and pushes to main run catalog validation, generation drift checks, internal link and anchor validation, parser fixtures and awesome-lint. Repeated navigation links are intentional; catalog URLs have a separate uniqueness check. The conventional locale filename and Chinese punctuation need narrow lint exceptions in generated Markdown.
+Pull requests and pushes to main run catalog validation, generation drift checks, internal link and anchor validation, parser fixtures and awesome-lint. Repeated navigation links are intentional; catalog URLs have a separate uniqueness check. The conventional locale filename, Chinese punctuation and the deliberate task-before-contents order need narrow lint exceptions in generated Markdown. The contents-order rule is disabled, while internal navigation and anchors remain validated.
 
-The weekly link workflow and manual `npm run links` write a report under ignored `reports/`. Repeated 404/410 responses are marked unavailable. Access blocks, rate limits and network errors need human review. Reports never remove entries or rewrite review dates. Inspect redirects and replacement URLs before changing a record. GitHub repository checks may use `GITHUB_TOKEN` only with api.github.com.
+The weekly link workflow and manual `npm run links` write a report under ignored `reports/`. Repeated 404/410 responses are `unavailable`; repeated 401/403/429 responses are `blocked`; timeouts and other uncertain failures are `review`. The command fails for unavailable links or execution errors; blocked and uncertain results remain visible in the job summary and artifact, without declaring the links dead. Reports never remove entries or rewrite review dates. Inspect redirects and replacement URLs before changing a record. GitHub repository checks may use `GITHUB_TOKEN` only with api.github.com.
 
-每周报告只提示检查，不自动删条目。403、429 或超时不代表项目停用。工作流异常可从 Actions 查看并下载报告，不自动向贡献者发送消息。
+每周报告不自动删条目。重复 404/410 返回失败状态；重复 401/403/429 单列为访问受阻，超时等异常单列为待复核，仍保留在摘要和报告中。脚本执行异常独立报错，不把失败悄悄变成通过。
+
+The workflow downloads the previous completed run's artifact and compares URL states: new issues, recovered URLs, changed states and URLs no longer checked. Missing/expired artifacts mean no baseline is available; this is stated explicitly. Manual comparisons use `LINK_CHECK_PREVIOUS=/path/to/link-check.json npm run links`. A green run means no repeated 404/410 or execution failure was found, not that every URL was verified.
+
+工作流下载上次已结束运行的报告，对照新增、恢复、状态变化与不再检查的地址；报告缺失或过期时明确提示无法比较。手动对照可设置 `LINK_CHECK_PREVIOUS`。绿色运行不表示所有地址均可达，仍需查看访问受阻与待复核项目。
+
+## Resolve report findings / 处理巡检结果
+
+Read the report, identify affected entries and check original sources. Record whether each signal needs a link update, further review or retention. Keep the reason and next review trigger in the [link review log](link-review.md); then regenerate and check affected files if a catalog change is warranted. Do not delete resources based on an access block or change their source-review dates for a network-only check.
+
+维护者读取报告 → 定位条目与来源 → 判断更新、保留或继续复核 → 在[巡检处理记录](link-review.md)写清理由与复核触发条件 → 如需改条目则生成并检查。未完成复核的异常保持开放，报告已生成不等于已处理。
+
+Before merging, consider a changelog entry for new resources, meaningful selection changes or navigation changes. Typo-only fixes need not create one. Recheck About and Topics when the scope or public language changes; homepage stays empty until a real website is deployed.
+
+合并前判断是否需要补更新记录；资源新增、重要选型信息与导航变化应记录，纯错字无需单独记一条。范围或主语言变化时复查 About 与 Topics；未部署网站时不填写猜测地址。
 
 ## Reproducible examples / 示例维护
 

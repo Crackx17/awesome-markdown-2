@@ -2,7 +2,20 @@
 
 [English](choosing-tools.md) | [简体中文](choosing-tools.zh-CN.md)
 
-These 16 candidates illustrate useful selection questions, not a ranking of every tool. The comparisons are based on project sources, not hands-on testing of each application. Browse the [full catalog](../README.md) for more candidates.
+These common tasks illustrate useful selection questions, not a ranking of every tool. The comparisons are based on project sources, not hands-on testing of each application. Browse the [full catalog](../README.md) for more candidates.
+
+## Start with what you need to manage
+
+| Your need | Compare first | Differences and selection conditions |
+| --- | --- | --- |
+| Edit existing .md files directly | [Typora](https://typora.io/), [MarkEdit](https://github.com/MarkEdit-app/MarkEdit) | Typora combines editing and preview with multi-format export; MarkEdit targets macOS and scriptable editor extensions. Consider devices, editing style and required output. |
+| Maintain a long-lived note collection | [Obsidian](https://obsidian.md/), [Joplin](https://joplinapp.org/) | Obsidian organizes local Markdown files and links; Joplin offers note management, end-to-end encryption and sync options. Compare storage, sync setup and migration of attachments and links. |
+| Read existing documents for free | [Markdific](https://markdific.com/pricing/), [Glow](https://github.com/charmbracelet/glow) | Markdific provides a desktop reader, with paid editing/export after the trial; Glow reads in the terminal. Choose the environment; free reading does not imply free editing. |
+| Write with a team | [HedgeDoc](https://github.com/hedgedoc/hedgedoc), [Feishu Docs](https://www.feishu.cn/product/docs) | HedgeDoc suits teams able to self-host; Feishu provides cloud collaboration, but Markdown export excludes comments. Decide who operates the service and what content must survive export. |
+
+These selection suggestions use the existing catalog evidence. Browse the [full catalog](../README.md) for more editors and note apps, or the [developer guide](markdown-for-developers.md) for component integration.
+
+## More tasks
 
 | Task | Candidate and official source | Use case | Check before choosing |
 | --- | --- | --- | --- |

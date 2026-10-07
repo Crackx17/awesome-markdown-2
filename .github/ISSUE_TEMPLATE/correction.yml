@@ -10,12 +10,12 @@ body:
   - type: textarea
     id: change
     attributes:
-      label: "Current claim and correction / 原描述与建议修改"
+      label: "Problem observed / 观察到的问题"
     validations:
       required: true
   - type: textarea
     id: evidence
     attributes:
-      label: "Official source or reproduction / 官方来源或复现步骤"
+      label: "Suggested correction or evidence (optional) / 建议修改或依据（选填）"
     validations:
-      required: true
+      required: false
