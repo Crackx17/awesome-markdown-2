@@ -188,6 +188,9 @@ Markdown 原生文件、Markdown 输入快捷语法、Markdown 导入导出是�
 - [Markdific](https://markdific.com/) - 直接打开 .md 文件，支持所见即所得编辑、源码与实时预览，以及 Word、HTML 导出；PDF 导出限 macOS 和 Windows。阅读免费，编辑、保存与导出在 14 天试用后需一次性购买许可证。<br>
   <span>`macOS` · `Windows` · `Linux` · `提供免费方案`</span>
 
+- [MacMD Viewer](https://macmdviewer.com) - 面向 macOS 14 及以上的只读 Markdown 查看器，搭配现有编辑器使用：渲染 Mermaid 图表和代码语法高亮，文件在磁盘上变更时自动重新加载，提供文档大纲、Finder 快速查看（Quick Look）预览，以及保留图表和高亮代码的 PDF 导出。不支持编辑，也不渲染 LaTeX/数学公式。付费闭源，一次性购买 19.99 美元，无试用。<br>
+  <span>`macOS`</span>
+
 ### 笔记与知识管理软件
 
 关注内容保存方式、链接组织与迁移能力。以 Markdown 输入内容，并不意味着笔记以 .md 文件保存。

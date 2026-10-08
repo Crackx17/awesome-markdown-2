@@ -1338,6 +1338,37 @@
       }
     },
     {
+      "id": "macmd-viewer",
+      "name": {
+        "en": "MacMD Viewer",
+        "zh": "MacMD Viewer"
+      },
+      "url": "https://macmdviewer.com",
+      "category": "dedicated-markdown-editors",
+      "parent": null,
+      "description": {
+        "en": "A read-only Markdown viewer for macOS 14+, used alongside an existing editor: renders Mermaid diagrams and syntax-highlighted code, reloads when the file changes on disk, shows a document outline, adds Finder Quick Look previews and exports PDF that keeps diagrams and highlighted code. No editing and no LaTeX/math rendering. Paid and closed source: one-time $19.99 purchase, no trial.",
+        "zh": "面向 macOS 14 及以上的只读 Markdown 查看器，搭配现有编辑器使用：渲染 Mermaid 图表和代码语法高亮，文件在磁盘上变更时自动重新加载，提供文档大纲、Finder 快速查看（Quick Look）预览，以及保留图表和高亮代码的 PDF 导出。不支持编辑，也不渲染 LaTeX/数学公式。付费闭源，一次性购买 19.99 美元，无试用。"
+      },
+      "tags": [
+        "macos"
+      ],
+      "links": [],
+      "status": "active",
+      "review": {
+        "date": "2026-10-08",
+        "level": "source-review",
+        "sources": [
+          "https://macmdviewer.com/features",
+          "https://macmdviewer.com/pricing"
+        ],
+        "note": {
+          "en": "Reviewed the official feature and pricing pages for the read-only scope, Mermaid, Quick Look, live reload, PDF export, the macOS 14 requirement and the one-time price; no application test. Submitted by the product developer.",
+          "zh": "核对官方功能与定价页面中的只读定位、Mermaid、快速查看、自动重新加载、PDF 导出、macOS 14 要求及一次性价格的说明，未进行应用实测。由产品开发者提交。"
+        }
+      }
+    },
+    {
       "id": "persona",
       "name": {
         "en": "Persona",
