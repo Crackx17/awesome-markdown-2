@@ -1347,8 +1347,8 @@
       "category": "dedicated-markdown-editors",
       "parent": null,
       "description": {
-        "en": "A read-only Markdown viewer for macOS 14+, used alongside an existing editor: renders Mermaid diagrams and syntax-highlighted code, reloads when the file changes on disk, shows a document outline, adds Finder Quick Look previews and exports PDF that keeps diagrams and highlighted code. No editing and no LaTeX/math rendering. Paid and closed source: one-time $19.99 purchase, no trial.",
-        "zh": "面向 macOS 14 及以上的只读 Markdown 查看器，搭配现有编辑器使用：渲染 Mermaid 图表和代码语法高亮，文件在磁盘上变更时自动重新加载，提供文档大纲、Finder 快速查看（Quick Look）预览，以及保留图表和高亮代码的 PDF 导出。不支持编辑，也不渲染 LaTeX/数学公式。付费闭源，一次性购买 19.99 美元，无试用。"
+        "en": "A read-only viewer for macOS 14+ with Mermaid, syntax highlighting, Finder Quick Look and live reload alongside an external editor. PDF export produces one continuous page; use Print for paper-sized pages. Direct purchase is $19.99 once for one active Mac, with no free trial.",
+        "zh": "面向 macOS 14 及以上的只读查看器，支持 Mermaid、代码高亮、Finder 快速查看和文件变更自动刷新，可搭配现有编辑器使用。PDF 导出为连续长页，分页需使用打印功能。官网直购一次性付费 19.99 美元，限一台 Mac 同时使用，无免费试用。"
       },
       "tags": [
         "macos"
@@ -1359,12 +1359,13 @@
         "date": "2026-10-08",
         "level": "source-review",
         "sources": [
+          "https://macmdviewer.com/",
           "https://macmdviewer.com/features",
           "https://macmdviewer.com/pricing"
         ],
         "note": {
-          "en": "Reviewed the official feature and pricing pages for the read-only scope, Mermaid, Quick Look, live reload, PDF export, the macOS 14 requirement and the one-time price; no application test. Submitted by the product developer.",
-          "zh": "核对官方功能与定价页面中的只读定位、Mermaid、快速查看、自动重新加载、PDF 导出、macOS 14 要求及一次性价格的说明，未进行应用实测。由产品开发者提交。"
+          "en": "Reviewed the official homepage, feature and pricing pages for read-only viewing, Mermaid, Quick Look, live reload, continuous-page PDF export versus Print, macOS 14+ and direct-purchase terms; no application test. Submitted by the product developer. Math rendering and closed-source claims were omitted because the cited pages do not establish them.",
+          "zh": "核对官网首页、功能与定价页面中的只读定位、Mermaid、快速查看、自动刷新、连续长页 PDF 与打印分页的区别、macOS 14 及以上要求和官网直购条件，未进行应用实测。由产品开发者提交。引用页面未明确说明数学公式渲染和源码开放情况，因此未保留相关断言。"
         }
       }
     },
